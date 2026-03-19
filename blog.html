@@ -1,0 +1,2681 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Expert Blog - তথ্য প্রযুক্তি বিশেষজ্ঞ ব্লগ</title>
+   
+   
+   <!-- SEO Meta Tags -->
+<meta name="description" content="IT Expert Blog - তথ্য প্রযুক্তি বিশেষজ্ঞ আসাদুল ইসলামের ব্লগ। Network Security, System Administration, Hardware Troubleshooting, Database Management এবং DevOps সম্পর্কে বিস্তারিত গাইড।">
+
+<meta name="keywords" content="IT Expert Blog, Asadul Islam, তথ্য প্রযুক্তি, Network Security, System Administration, Hardware Troubleshooting, CCTV Configuration, Database Management, DevOps, Cloud Computing, Cybersecurity, Windows Installation, IT Support Bangladesh">
+
+<meta name="author" content="Asadul Islam - IT Support Specialist">
+<meta name="robots" content="index, follow">
+<meta name="language" content="Bengali">
+<meta name="revisit-after" content="7 days">
+
+<!-- Open Graph Meta Tags (Facebook) -->
+<meta property="og:title" content="IT Expert Blog - তথ্য প্রযুক্তি বিশেষজ্ঞ ব্লগ">
+<meta property="og:description" content="Network Security, System Administration, Hardware Troubleshooting এবং IT সাপোর্ট সম্পর্কে বিস্তারিত গাইড এবং টিউটোরিয়াল।">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://asadul-it.github.io/portfolio/blog.html">
+<meta property="og:image" content="https://asadul-it.github.io/portfolio/assets/blog-preview.jpg">
+<meta property="og:site_name" content="Asadul Islam Portfolio">
+<meta property="og:locale" content="bn_BD">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IT Expert Blog - তথ্য প্রযুক্তি বিশেষজ্ঞ ব্লগ">
+<meta name="twitter:description" content="Network Security, System Administration, Hardware Troubleshooting এবং IT সাপোর্ট সম্পর্কে বিস্তারিত গাইড।">
+<meta name="twitter:image" content="https://asadul-it.github.io/portfolio/assets/blog-preview.jpg">
+<meta name="twitter:creator" content="@asadul_islam">
+
+<!-- Additional SEO Tags -->
+<meta name="geo.region" content="BD-13">
+<meta name="geo.placename" content="Dhaka, Bangladesh">
+<meta name="geo.position" content="23.8103;90.4125">
+<meta name="ICBM" content="23.8103, 90.4125">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://asadul-it.github.io/portfolio/blog.html">
+
+<!-- Hreflang for language targeting -->
+<link rel="alternate" hreflang="bn" href="https://asadul-it.github.io/portfolio/blog.html">
+<link rel="alternate" hreflang="en" href="https://asadul-it.github.io/portfolio/blog-en.html">
+
+<!-- Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "IT Expert Blog",
+  "description": "তথ্য প্রযুক্তি বিশেষজ্ঞ আসাদুল ইসলামের ব্লগ",
+  "url": "https://asadul-it.github.io/portfolio/blog.html",
+  "author": {
+    "@type": "Person",
+    "name": "Asadul Islam",
+    "jobTitle": "IT Support Specialist",
+    "url": "https://asadul-it.github.io/portfolio/",
+    "sameAs": [
+      "https://linkedin.com/in/asadul-islam",
+      "https://github.com/asadul-it"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Asadul Islam Portfolio",
+    "url": "https://asadul-it.github.io/portfolio/"
+  },
+  "inLanguage": "bn",
+  "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Network Security Practices",
+      "description": "আধুনিক নেটওয়ার্ক নিরাপত্তার জন্য প্রয়োজনীয় সব কৌশল এবং বাস্তবায়ন পদ্ধতি।",
+      "datePublished": "2024-11-15",
+      "author": {
+        "@type": "Person",
+        "name": "Asadul Islam"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Active Directory Management",
+      "description": "Active Directory পরিচালনার জন্য প্রয়োজনীয় টিপস এবং উন্নত কৌশল।",
+      "datePublished": "2024-10-28",
+      "author": {
+        "@type": "Person",
+        "name": "Asadul Islam"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "কিভাবে পেনড্রাইভ দিয়ে Windows ইনস্টল করবেন",
+      "description": "পেনড্রাইভ ব্যবহার করে Windows ইনস্টল করার সহজ পদ্ধতি।",
+      "datePublished": "2024-07-15",
+      "author": {
+        "@type": "Person",
+        "name": "Asadul Islam"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5H7RZ72M1J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5H7RZ72M1J', {
+    // Enhanced tracking options
+    'send_page_view': true,
+    'anonymize_ip': true, // GDPR compliance
+    'allow_google_signals': false // Privacy-focused
+  });
+</script>
+
+<!-- Custom Event Tracking for Blog Interactions -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Track article expansion
+    document.querySelectorAll('.read-more').forEach(button => {
+        button.addEventListener('click', function(e) {
+            const articleTitle = e.target.closest('.newspaper-article').querySelector('.article-title').textContent;
+            gtag('event', 'expand_article', {
+                'event_category': 'engagement',
+                'event_label': articleTitle,
+                'value': 1
+            });
+        });
+    });
+
+    // Track navigation clicks
+    document.querySelectorAll('.navbar a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            gtag('event', 'navigation_click', {
+                'event_category': 'navigation',
+                'event_label': e.target.textContent.trim(),
+                'page_location': window.location.href
+            });
+        });
+    });
+
+    // Track mobile menu usage
+    const mobileToggle = document.querySelector('.mobile-menu-toggle');
+    if (mobileToggle) {
+        mobileToggle.addEventListener('click', function() {
+            gtag('event', 'mobile_menu_toggle', {
+                'event_category': 'ui_interaction',
+                'event_label': 'mobile_menu_opened'
+            });
+        });
+    }
+
+    // Track scroll depth
+    let maxScrollDepth = 0;
+    window.addEventListener('scroll', function() {
+        const scrollDepth = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+        if (scrollDepth > maxScrollDepth && scrollDepth % 25 === 0) {
+            maxScrollDepth = scrollDepth;
+            gtag('event', 'scroll_depth', {
+                'event_category': 'engagement',
+                'event_label': scrollDepth + '%_scrolled',
+                'value': scrollDepth
+            });
+        }
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+<!-- Preconnect to external domains -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+<!-- DNS Prefetch -->
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+   
+   
+   
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+
+
+
+    <style>
+
+
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #f8f9fa;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        .newspaper-header {
+            background: #ffffff;
+            border-bottom: 4px solid #2c3e50;
+            margin-bottom: 30px;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .newspaper-header h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', serif;
+        }
+
+        .newspaper-header .tagline {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            font-style: italic;
+            border-top: 1px solid #ecf0f1;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+
+        .date-line {
+            font-size: 0.9rem;
+            color: #95a5a6;
+            margin-top: 5px;
+        }
+
+        /* Main Grid Layout */
+        .newspaper-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        /* Article Styles */
+        .newspaper-article {
+            background: #ffffff;
+            border: 1px solid #e8e8e8;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .newspaper-article::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: #3498db;
+        }
+
+        .article-category {
+            background: #3498db;
+            color: white;
+            padding: 5px 12px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .article-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            line-height: 1.3;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+
+        .article-meta {
+            font-size: 0.85rem;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            border-left: 3px solid #3498db;
+            padding-left: 10px;
+        }
+
+        .article-content {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #34495e;
+            text-align: justify;
+        }
+
+        .article-content p {
+            margin-bottom: 12px;
+        }
+
+        .article-content h4 {
+            font-size: 1.1rem;
+            color: #2c3e50;
+            margin: 20px 0 10px 0;
+            font-weight: bold;
+            border-bottom: 1px solid #ecf0f1;
+            padding-bottom: 5px;
+        }
+
+        .article-content ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+
+        .article-content li {
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        .article-content li::before {
+            content: '▸';
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: -15px;
+        }
+
+        .expanded-content {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px dashed #bdc3c7;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .read-more {
+            display: inline-block;
+            background: #2c3e50;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .read-more:hover {
+            background: #34495e;
+        }
+
+        /* Column Separators */
+        .newspaper-grid::before,
+        .newspaper-grid::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background: #e8e8e8;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .newspaper-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 25px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .newspaper-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .newspaper-header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .newspaper-article {
+                padding: 20px;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .newspaper-article {
+                box-shadow: none;
+                border: 1px solid #000;
+                break-inside: avoid;
+            }
+            
+            .read-more {
+                display: none;
+            }
+        }
+
+        /* Special styling for first article */
+        .newspaper-article:first-child {
+            grid-column: 1 / -1;
+        }
+
+        .newspaper-article:first-child .article-title {
+            font-size: 2rem;
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .newspaper-article:first-child .article-content {
+            columns: 3;
+            column-gap: 30px;
+            column-rule: 1px solid #e8e8e8;
+        }
+
+        @media (max-width: 1200px) {
+            .newspaper-article:first-child .article-content {
+                columns: 2;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .newspaper-article:first-child .article-content {
+                columns: 1;
+            }
+
+
+
+
+
+
+
+            
+        }
+    </style>
+
+    
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main-content-body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        /* Fixed Header Container */
+        .fixed-header-container {
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        /* Enhanced Navbar */
+        .navbar {
+            background: linear-gradient(135deg, #f4f5f9 0%, #fdfcff 100%);
+            width: 85%;
+            max-width: 1000px;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            border-radius: 50px;
+            box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .navbar::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .navbar:hover::before {
+            left: 100%;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .navbar ul li a {
+            color: rgb(72, 66, 189);
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar ul li a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            transition: left 0.3s ease;
+        }
+
+        .navbar ul li a:hover::before {
+            left: 0;
+        }
+
+        .navbar ul li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Enhanced Title */
+        .title {
+            color: #2c3e50;
+            font-size: 3em;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-align: center;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+            animation: titleGlow 3s infinite ease-in-out;
+        }
+
+        @keyframes titleGlow {
+            0%, 100% { filter: brightness(1); }
+            50% { filter: brightness(1.2); }
+        }
+
+        .title::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 4px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 2px;
+            box-shadow: 0 2px 10px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Mobile Menu Toggle */
+        .mobile-menu-toggle {
+            display: none;
+            color: #667eea;
+            font-size: 1.5em;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .mobile-menu-toggle:hover {
+            background: rgba(255, 255, 255, 0.4);
+            color: #764ba2;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .navbar {
+                width: 95%;
+                padding: 12px 20px;
+            }
+            
+            .navbar ul {
+                gap: 15px;
+            }
+            
+            .navbar ul li a {
+                font-size: 1rem;
+                padding: 10px 18px;
+            }
+            
+            .title {
+                font-size: 2.5em;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .fixed-header-container {
+                padding: 15px 0;
+            }
+
+            .navbar {
+                width: 95%;
+                padding: 15px;
+                border-radius: 25px;
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+
+
+
+
+
+
+
+
+
+            
+
+.mobile-menu-toggle {
+  display: block;
+  align-self: flex-end;
+  margin-bottom: 8px;
+  padding: 8px 8px;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(135deg, #007bff, #00c6ff); /* নীল গ্রেডিয়েন্ট */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mobile-menu-toggle::before {
+  content: "\2630"; /* Unicode hamburger icon ≡ */
+  font-size: 1.5em;
+}
+
+.mobile-menu-toggle:hover {
+  background: linear-gradient(135deg, #0056b3, #0096c7); /* হোভার অবস্থায় গাঢ় নীল */
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mobile-menu-toggle:hover {
+  background: linear-gradient(135deg, #0056b3, #0096c7); /* হোভার অবস্থায় গাঢ় নীল */
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+            .navbar ul {
+                flex-direction: column;
+                gap: 10px;
+                width: 100%;
+                display: none; /* Hidden by default for mobile */
+            }
+
+            .navbar ul.active {
+                display: flex; /* Shown when active */
+            }
+
+            .navbar ul li {
+                width: 100%;
+            }
+
+            .navbar ul li a {
+                justify-content: center;
+                width: 100%;
+                font-size: 1rem;
+                padding: 12px;
+                color: rgb(72, 66, 189) !important;
+                background: rgba(255, 255, 255, 0.2);
+            }
+            
+            .title {
+                font-size: 2.2em;
+                letter-spacing: 1px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title {
+                font-size: 1.8em;
+            }
+            
+            .navbar ul li a {
+                font-size: 0.9rem;
+                padding: 10px;
+                color: rgb(72, 66, 189) !important;
+                background: rgba(255, 255, 255, 0.2);
+            }
+        }
+    </style>
+</head>
+<body class="main-content-body">
+    <div class="fixed-header-container">
+        <nav class="navbar">
+            <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul id="navMenu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="skills.html"><i class="fas fa-code"></i> Skills</a></li> 
+                <li><a href="certificate.html"><i class="fas fa-award"></i> Certificate</a></li>
+                <li><a href="contact.html"><i class="fas fa-address-book"></i> Contact</a></li>
+                 <li><a href="photo-gallery.html"><i class="fas fa-camera"></i> Gallery</a></li>
+                <li><a href="blog.html"><i class="fas fa-pen"></i> Blog</a></li> </ul>
+        </nav>
+       <h1>IT Expert Blog</h1>
+    </div>
+
+    <script>
+        // Mobile Menu Toggle Function
+        function toggleMobileMenu() {
+            const navMenu = document.getElementById('navMenu');
+            const toggleIcon = document.querySelector('.mobile-menu-toggle i');
+            
+            navMenu.classList.toggle('active');
+            
+            // Change icon based on menu state
+            if (navMenu.classList.contains('active')) {
+                toggleIcon.classList.remove('fa-bars');
+                toggleIcon.classList.add('fa-times');
+            } else {
+                toggleIcon.classList.remove('fa-times');
+                toggleIcon.classList.add('fa-bars');
+            }
+        }
+
+        // Close mobile menu when clicking on a link (optional, if you want this functionality)
+        document.querySelectorAll('.navbar ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                const navMenu = document.getElementById('navMenu');
+                const toggleIcon = document.querySelector('.mobile-menu-toggle i');
+                
+                if (navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    toggleIcon.classList.remove('fa-times');
+                    toggleIcon.classList.add('fa-bars');
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+
+
+
+
+    <div class="container">
+       
+
+        <div class="newspaper-grid">
+
+
+
+
+
+     <article class="newspaper-article">
+    <div class="article-category">নেটওয়ার্ক নিরাপত্তা</div>
+    <h2 class="article-title">Network Security Practices</h2>
+    <div class="article-meta">প্রকাশিত: ১৫ নভেম্বর, ২০২৪ | বিভাগ: সিকিউরিটি | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>আধুনিক নেটওয়ার্ক নিরাপত্তার জন্য প্রয়োজনীয় সব কৌশল এবং বাস্তবায়ন পদ্ধতি। নেটওয়ার্ক নিরাপত্তা শুধুমাত্র প্রযুক্তি নয়, এটি একটি সম্পূর্ণ প্রক্রিয়া যা সঠিক পরিকল্পনা এবং বাস্তবায়ন প্রয়োজন।</p>
+        
+        <h4>মূল বিষয়সমূহ:</h4>
+        <ul>
+            <li>Firewall কনফিগারেশন এবং পরিচালনা</li>
+            <li>VPN সেটআপ এবং এনক্রিপশন</li>
+            <li>Network Monitoring এবং Intrusion Detection</li>
+            <li>Access Control এবং Authentication</li>
+            <li>Security Policies এবং Best Practices</li>
+        </ul>
+        
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত গাইডলাইন:</h4>
+            
+            <h4>১. Firewall কনফিগারেশন:</h4>
+            <ul>
+                <li>Port-based filtering এবং protocol restrictions</li>
+                <li>Application-level gateway setup</li>
+                <li>DMZ configuration এবং NAT rules</li>
+                <li>Logging এবং monitoring setup</li>
+            </ul>
+            
+            <h4>২. VPN Implementation:</h4>
+            <ul>
+                <li>Site-to-site VPN configuration</li>
+                <li>Remote access VPN setup</li>
+                <li>IPSec এবং SSL/TLS protocols</li>
+                <li>Certificate management</li>
+            </ul>
+            
+            <h4>৩. Network Monitoring:</h4>
+            <ul>
+                <li>SIEM tools এবং traffic analysis</li>
+                <li>Intrusion detection systems (IDS/IPS)</li>
+                <li>Vulnerability scanning</li>
+                <li>Performance monitoring</li>
+            </ul>
+            
+            <p><strong>প্রাকটিক্যাল টিপস:</strong> নিয়মিত security updates, employee training, এবং penetration testing করা অত্যন্ত জরুরি। Network segmentation ব্যবহার করে critical systems আলাদা রাখুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+<article class="newspaper-article">
+    <div class="article-category">সিস্টেম প্রশাসন</div>
+    <h2 class="article-title">Active Directory Management</h2>
+    <div class="article-meta">প্রকাশিত: ২৮ অক্টোবর, ২০২৪ | বিভাগ: সিস্টেম | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>Active Directory পরিচালনার জন্য প্রয়োজনীয় টিপস এবং উন্নত কৌশল। Active Directory হল Windows পরিবেশের হৃদয়, যার সঠিক ব্যবহার আপনার সংস্থার IT অবকাঠামোকে শক্তিশালী করে তুলবে।</p>
+        
+        <h4>প্রধান বিষয়সমূহ:</h4>
+        <ul>
+            <li>User এবং Group Management</li>
+            <li>Group Policy Configuration</li>
+            <li>Domain Controller Optimization</li>
+            <li>Security এবং Permission Management</li>
+            <li>Backup এবং Recovery Strategies</li>
+        </ul>
+        
+        <div class="expanded-content" style="display: none;">
+            <h4>Advanced Management Tips:</h4>
+            
+            <h4>১. User Account Management:</h4>
+            <ul>
+                <li>Bulk user creation using PowerShell</li>
+                <li>Automated user provisioning</li>
+                <li>Password policy implementation</li>
+                <li>User account lifecycle management</li>
+            </ul>
+            
+            <h4>২. Group Policy Optimization:</h4>
+            <ul>
+                <li>GPO inheritance এবং precedence</li>
+                <li>WMI filtering techniques</li>
+                <li>Software deployment through GPO</li>
+                <li>Security settings centralization</li>
+            </ul>
+            
+            <p><strong>PowerShell Commands:</strong> Get-ADUser, Set-ADUser, New-ADGroup, এবং Get-GPOReport কমান্ডগুলো নিয়মিত ব্যবহার করুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+<article class="newspaper-article">
+    <div class="article-category">হার্ডওয়ার সাপোর্ট</div>
+    <h2 class="article-title">Hardware Troubleshooting</h2>
+    <div class="article-meta">প্রকাশিত: ০৫ ডিসেম্বর, ২০২৪ | বিভাগ: হার্ডওয়ার | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>হার্ডওয়ার সমস্যা সমাধানের জন্য প্রয়োজনীয় দক্ষতা এবং পদ্ধতি। হার্ডওয়ার সমস্যা শনাক্তকরণ এবং সমাধান একটি পদ্ধতিগত প্রক্রিয়া যা সঠিক জ্ঞান এবং অভিজ্ঞতা প্রয়োজন।</p>
+        
+        <h4>সমস্যা সমাধানের ক্ষেত্রসমূহ:</h4>
+        <ul>
+            <li>Motherboard এবং CPU সমস্যা</li>
+            <li>RAM এবং Storage Issues</li>
+            <li>Graphics Card Troubleshooting</li>
+            <li>Power Supply এবং Cooling Problems</li>
+            <li>Peripheral Device Issues</li>
+        </ul>
+        
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত Troubleshooting:</h4>
+            
+            <h4>১. Motherboard সমস্যা:</h4>
+            <ul>
+                <li>POST error codes analysis</li>
+                <li>BIOS/UEFI configuration</li>
+                <li>Component failure detection</li>
+                <li>Socket এবং slot problems</li>
+            </ul>
+            
+            <h4>২. Memory Issues:</h4>
+            <ul>
+                <li>Memory testing tools (MemTest86)</li>
+                <li>BSOD analysis</li>
+                <li>Compatibility troubleshooting</li>
+            </ul>
+            
+            <p><strong>Essential Tools:</strong> Multimeter, POST card, thermal paste এবং cable tester অত্যন্ত প্রয়োজনীয়।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+<article class="newspaper-article">
+    <div class="article-category">সিকিউরিটি সিস্টেম</div>
+    <h2 class="article-title">CCTV & NVR Configuration</h2>
+    <div class="article-meta">প্রকাশিত: ২২ সেপ্টেম্বর, ২০২৪ | বিভাগ: সিকিউরিটি | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>সিকিউরিটি সিস্টেম স্থাপনা এবং কনফিগারেশনের সম্পূর্ণ গাইড। আধুনিক সিকিউরিটি সিস্টেমের সফল বাস্তবায়নের জন্য প্রয়োজন সঠিক পরিকল্পনা এবং পেশাদার কনফিগারেশন।</p>
+        
+        <h4>কনফিগারেশন বিষয়সমূহ:</h4>
+        <ul>
+            <li>NVR/DVR সিস্টেম সেটআপ</li>
+            <li>IP Camera Configuration</li>
+            <li>Remote Access এবং Mobile Monitoring</li>
+            <li>Storage Management এবং Backup</li>
+            <li>Network Settings এবং Port Configuration</li>
+        </ul>
+        
+        <div class="expanded-content" style="display: none;">
+            <h4>Complete Setup Guide:</h4>
+            
+            <h4>১. NVR/DVR Configuration:</h4>
+            <ul>
+                <li>Initial setup এবং admin account</li>
+                <li>Recording schedule configuration</li>
+                <li>Motion detection settings</li>
+                <li>Alert notifications setup</li>
+            </ul>
+            
+            <h4>২. Network Configuration:</h4>
+            <ul>
+                <li>Port forwarding এবং DDNS setup</li>
+                <li>VPN access configuration</li>
+                <li>Bandwidth optimization</li>
+            </ul>
+            
+            <p><strong>Best Practices:</strong> নিয়মিত firmware updates, password security, এবং regular maintenance করুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+<article class="newspaper-article">
+    <div class="article-category">সিস্টেম রক্ষণাবেক্ষণ</div>
+    <h2 class="article-title">System Maintenance Guide</h2>
+    <div class="article-meta">প্রকাশিত: ১২ জানুয়ারি, ২০২৫ | বিভাগ: রক্ষণাবেক্ষণ | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>Windows এবং Linux সিস্টেম রক্ষণাবেক্ষণের জন্য বিস্তারিত চেকলিস্ট। নিয়মিত সিস্টেম রক্ষণাবেক্ষণ আপনার কম্পিউটারের কর্মক্ষমতা বৃদ্ধি করে এবং সমস্যা প্রতিরোধে সাহায্য করে।</p>
+        
+        <h4>রক্ষণাবেক্ষণ কার্যক্রম:</h4>
+        <ul>
+            <li>System Updates এবং Security Patches</li>
+            <li>Disk Cleanup এবং Defragmentation</li>
+            <li>Registry Cleaning এবং Optimization</li>
+            <li>Antivirus Scanning এবং Malware Removal</li>
+            <li>Performance Monitoring এবং Tuning</li>
+        </ul>
+        
+        <div class="expanded-content" style="display: none;">
+            <h4>Detailed Maintenance:</h4>
+            
+            <h4>১. Windows Maintenance:</h4>
+            <ul>
+                <li>Windows Update configuration</li>
+                <li>Disk Cleanup এবং temp files removal</li>
+                <li>Registry optimization</li>
+                <li>Startup programs management</li>
+            </ul>
+            
+            <h4>২. Linux Maintenance:</h4>
+            <ul>
+                <li>Package manager updates</li>
+                <li>Log file cleanup</li>
+                <li>Cron job management</li>
+                <li>System monitoring</li>
+            </ul>
+            
+            <p><strong>Automation:</strong> Task Scheduler এবং Cron jobs ব্যবহার করে maintenance automate করুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+<article class="newspaper-article">
+    <div class="article-category">ডকুমেন্টেশন</div>
+    <h2 class="article-title">IT Documentation Standards</h2>
+    <div class="article-meta">প্রকাশিত: ০৮ আগস্ট, ২০২৪ | বিভাগ: ডকুমেন্টেশন | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>IT অবকাঠামো এবং প্রক্রিয়ার কার্যকর ডকুমেন্টেশনের জন্য সর্বোত্তম পদ্ধতি। ভালো ডকুমেন্টেশন IT টিমের দক্ষতা বৃদ্ধি করে এবং সমস্যা সমাধানে সময় সাশ্রয় করে।</p>
+        
+        <h4>ডকুমেন্টেশন কৌশল:</h4>
+        <ul>
+            <li>System Architecture Documentation</li>
+            <li>Standard Operating Procedures (SOPs)</li>
+            <li>Change Management Documentation</li>
+            <li>Incident Response Procedures</li>
+            <li>Knowledge Base Management</li>
+        </ul>
+        
+        <div class="expanded-content" style="display: none;">
+            <h4>Documentation Best Practices:</h4>
+            
+            <h4>১. System Documentation:</h4>
+            <ul>
+                <li>Network topology diagrams</li>
+                <li>Server configuration details</li>
+                <li>Software inventory এবং licensing</li>
+                <li>Hardware specifications</li>
+            </ul>
+            
+            <h4>২. Process Documentation:</h4>
+            <ul>
+                <li>Step-by-step procedures</li>
+                <li>Decision trees for troubleshooting</li>
+                <li>Emergency response plans</li>
+                <li>Escalation procedures</li>
+            </ul>
+            
+            <p><strong>Key Principles:</strong> Clear, concise, current, এবং accessible documentation তৈরি করুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+<article class="newspaper-article">
+    <div class="article-category">ক্লাউড কম্পিউটিং</div>
+    <h2 class="article-title">Cloud Infrastructure Management</h2>
+    <div class="article-meta">প্রকাশিত: ১৮ মার্চ, ২০২৪ | বিভাগ: ক্লাউড | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>AWS, Azure, এবং Google Cloud Platform এর উপর ভিত্তি করে ক্লাউড অবকাঠামো পরিচালনা। আধুনিক ব্যবসায়িক প্রয়োজনে ক্লাউড সেবা অপরিহার্য হয়ে উঠেছে।</p>
+        
+        <h4>প্রধান সেবাসমূহ:</h4>
+        <ul>
+            <li>Virtual Machine Management এবং EC2 Instances</li>
+            <li>Container Orchestration (Kubernetes, Docker Swarm)</li>
+            <li>Database as a Service (RDS, CosmosDB, BigQuery)</li>
+            <li>Load Balancing এবং Auto Scaling Groups</li>
+            <li>Backup এবং Disaster Recovery Solutions</li>
+        </ul>
+        
+        <div class="expanded-content" style="display: none;">
+            <h4>Advanced Cloud Solutions:</h4>
+            
+            <h4>১. Multi-Cloud Strategy:</h4>
+            <ul>
+                <li>Hybrid cloud architecture design এবং implementation</li>
+                <li>Cloud migration planning এবং execution</li>
+                <li>Cost optimization strategies এবং resource monitoring</li>
+                <li>Performance monitoring এবং alerting setup</li>
+            </ul>
+            
+            <h4>২. Security in Cloud:</h4>
+            <ul>
+                <li>Identity and Access Management (IAM) configuration</li>
+                <li>Encryption at rest এবং in transit setup</li>
+                <li>Compliance frameworks (SOC 2, ISO 27001)</li>
+                <li>Security monitoring এবং threat detection</li>
+            </ul>
+            
+            <h4>৩. DevOps Integration:</h4>
+            <ul>
+                <li>CI/CD pipeline setup with cloud services</li>
+                <li>Infrastructure as Code (Terraform, CloudFormation)</li>
+                <li>Automated testing এবং deployment</li>
+                <li>Container registry management</li>
+            </ul>
+            
+            <p><strong>সফলতার টিপস:</strong> Cloud-native architecture design করুন, microservices pattern অনুসরণ করুন, এবং serverless computing এর সুবিধা গ্রহণ করুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+<article class="newspaper-article">
+    <div class="article-category">ডাটাবেস প্রশাসন</div>
+    <h2 class="article-title">Database Administration Guide</h2>
+    <div class="article-meta">প্রকাশিত: ০৩ জুন, ২০২৪ | বিভাগ: ডাটাবেস | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>SQL Server, MySQL, PostgreSQL এবং Oracle ডাটাবেস পরিচালনার সম্পূর্ণ গাইড। কার্যকর ডাটাবেস প্রশাসন ব্যবসায়িক তথ্যের নিরাপত্তা এবং প্রাপ্যতা নিশ্চিত করে।</p>
+        
+        <h4>প্রধান কার্যক্রম:</h4>
+        <ul>
+            <li>Database Installation এবং Initial Configuration</li>
+            <li>Performance Tuning এবং Query Optimization</li>
+            <li>Backup Strategies এবং Recovery Planning</li>
+            <li>User Management এবং Access Control</li>
+            <li>Monitoring, Alerting এবং Maintenance</li>
+        </ul>
+        
+        <div class="expanded-content" style="display: none;">
+            <h4>Advanced Database Management:</h4>
+            
+            <h4>১. Performance Optimization:</h4>
+            <ul>
+                <li>Query optimization techniques এবং execution plans</li>
+                <li>Index management strategies (clustered, non-clustered)</li>
+                <li>Memory configuration tuning এবং buffer pool</li>
+                <li>Connection pooling setup এবং resource management</li>
+            </ul>
+            
+            <h4>২. High Availability Solutions:</h4>
+            <ul>
+                <li>Database replication setup (Master-Slave, Master-Master)</li>
+                <li>Clustering configuration (SQL Server AlwaysOn, MySQL Cluster)</li>
+                <li>Failover strategies এবং automatic recovery</li>
+                <li>Load balancing for read replicas</li>
+            </ul>
+            
+            <h4>৩. Security Implementation:</h4>
+            <ul>
+                <li>Database encryption (TDE, column-level encryption)</li>
+                <li>Audit logging এবং compliance monitoring</li>
+                <li>Role-based access control (RBAC)</li>
+                <li>SQL injection prevention techniques</li>
+            </ul>
+            
+            <p><strong>DBA Best Practices:</strong> নিয়মিত maintenance windows সেট করুন, automated backup verification করুন, এবং disaster recovery testing পরিচালনা করুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+<article class="newspaper-article">
+    <div class="article-category">ডেভঅপস</div>
+    <h2 class="article-title">DevOps Implementation Strategy</h2>
+    <div class="article-meta">প্রকাশিত: ২৫ এপ্রিল, ২০২৪ | বিভাগ: ডেভঅপস | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>CI/CD পাইপলাইন এবং DevOps সংস্কৃতি বাস্তবায়নের জন্য সম্পূর্ণ গাইড। আধুনিক সফটওয়্যার উন্নয়নে DevOps একটি অপরিহার্য methodology যা দ্রুত এবং নির্ভরযোগ্য deployment নিশ্চিত করে।</p>
+        
+        <h4>মূল উপাদানসমূহ:</h4>
+        <ul>
+            <li>Version Control System (Git, SVN) এবং Branching Strategy</li>
+            <li>Continuous Integration/Continuous Deployment (CI/CD)</li>
+            <li>Containerization (Docker, Podman) এবং Orchestration</li>
+            <li>Infrastructure as Code (Terraform, Ansible, Puppet)</li>
+            <li>Monitoring, Logging এবং Observability</li>
+        </ul>
+        
+        <div class="expanded-content" style="display: none;">
+            <h4>Complete DevOps Pipeline:</h4>
+            
+            <h4>১. CI/CD Pipeline Architecture:</h4>
+            <ul>
+                <li>Jenkins pipeline configuration এবং Blue Ocean setup</li>
+                <li>GitHub Actions workflow এবং GitLab CI/CD</li>
+                <li>Automated testing integration (unit, integration, e2e)</li>
+                <li>Deployment strategies (Blue-Green, Canary, Rolling)</li>
+            </ul>
+            
+            <h4>২. Container Orchestration:</h4>
+            <ul>
+                <li>Docker containerization best practices</li>
+                <li>Kubernetes cluster management এবং YAML configurations</li>
+                <li>Helm charts for package management</li>
+                <li>Service mesh implementation (Istio, Linkerd)</li>
+            </ul>
+            
+            <h4>৩. Monitoring এবং Observability:</h4>
+            <ul>
+                <li>Prometheus monitoring setup এবং Grafana dashboards</li>
+                <li>ELK Stack (Elasticsearch, Logstash, Kibana) for logging</li>
+                <li>Distributed tracing with Jaeger/Zipkin</li>
+                <li>Application Performance Monitoring (APM) tools</li>
+            </ul>
+            
+            <p><strong>DevOps Success Metrics:</strong> Deployment frequency, lead time, MTTR (Mean Time To Recovery), এবং change failure rate নিয়মিত পরিমাপ করুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+<article class="newspaper-article">
+    <div class="article-category">সাইবার নিরাপত্তা</div>
+    <h2 class="article-title">Advanced Cybersecurity Framework</h2>
+    <div class="article-meta">প্রকাশিত: ০৯ জুলাই, ২০২৪ | বিভাগ: সিকিউরিটি | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>আধুনিক সাইবার নিরাপত্তা কৌশল এবং threat intelligence বাস্তবায়ন। সাইবার আক্রমণের বিরুদ্ধে সম্পূর্ণ defense-in-depth strategy গড়ে তোলার জন্য বিস্তৃত নির্দেশনা।</p>
+        
+        <h4>নিরাপত্তা স্তরসমূহ:</h4>
+        <ul>
+            <li>Endpoint Detection and Response (EDR) Solutions</li>
+            <li>Security Information and Event Management (SIEM)</li>
+            <li>Zero Trust Network Architecture (ZTNA)</li>
+            <li>Threat Intelligence এবং Cyber Threat Hunting</li>
+            <li>Incident Response এবং Forensic Analysis</li>
+        </ul>
+        
+        <div class="expanded-content" style="display: none;">
+            <h4>Advanced Security Implementation:</h4>
+            
+            <h4>১. Threat Detection এবং Prevention:</h4>
+            <ul>
+                <li>AI/ML-powered behavioral analytics implementation</li>
+                <li>Advanced persistent threat (APT) detection</li>
+                <li>Dark web monitoring এবং threat intelligence feeds</li>
+                <li>Vulnerability assessment automation (OpenVAS, Nessus)</li>
+            </ul>
+            
+            <h4>২. Identity এবং Access Management:</h4>
+            <ul>
+                <li>Multi-factor authentication (MFA) deployment</li>
+                <li>Single Sign-On (SSO) implementation</li>
+                <li>Privileged Access Management (PAM)</li>
+                <li>Identity governance এবং lifecycle management</li>
+            </ul>
+            
+            <h4>৩. Incident Response Framework:</h4>
+            <ul>
+                <li>Incident response playbooks এবং procedures</li>
+                <li>Digital forensic analysis techniques</li>
+                <li>Crisis communication protocols</li>
+                <li>Post-incident analysis এবং lessons learned</li>
+            </ul>
+            
+            <p><strong>Security Awareness:</strong> নিয়মিত security training programs, phishing simulation exercises, এবং security culture development অত্যন্ত গুরুত্বপূর্ণ।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+
+
+
+
+
+<article class="newspaper-article">
+    <div class="article-category">নেটওয়ার্কিং</div>
+    <h2 class="article-title">Enterprise Networking Essentials</h2>
+    <div class="article-meta">প্রকাশিত: ২০ মে, ২০২৪ | বিভাগ: নেটওয়ার্ক | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>বড় প্রতিষ্ঠানের জন্য উচ্চ-দক্ষতার নেটওয়ার্ক ডিজাইন ও মেইনটেনেন্স গাইড। LAN, WAN, এবং Wireless নেটওয়ার্কে সর্বোত্তম পারফরম্যান্স ও নিরাপত্তা বজায় রাখা।</p>
+        
+        <h4>মূল বিষয়:</h4>
+        <ul>
+            <li>Network Topology Design এবং Redundancy</li>
+            <li>Switching & Routing Configuration</li>
+            <li>Firewall & ACL Management</li>
+            <li>VLAN & Subnetting Strategies</li>
+            <li>Monitoring & Troubleshooting Tools</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>Advanced Networking Topics:</h4>
+
+            <h4>১. High Availability & Scalability:</h4>
+            <ul>
+                <li>Spanning Tree Protocol (STP) & Link Aggregation</li>
+                <li>Hot Standby Router Protocol (HSRP) / VRRP</li>
+                <li>Load Balancers & SD-WAN</li>
+            </ul>
+
+            <h4>২. Wireless Networking:</h4>
+            <ul>
+                <li>Access Point Planning ও Site Survey</li>
+                <li>Wi-Fi Security (WPA3, RADIUS)</li>
+                <li>Guest & Corporate SSID Segregation</li>
+            </ul>
+
+            <h4>৩. Network Security:</h4>
+            <ul>
+                <li>Intrusion Detection & Prevention (IDS/IPS)</li>
+                <li>Network Access Control (NAC)</li>
+                <li>Network Segmentation & Zero Trust</li>
+            </ul>
+
+            <p><strong>Tips:</strong> Network documentation আপডেট রাখুন এবং রেগুলার পেন-টেস্ট করান।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+<article class="newspaper-article">
+    <div class="article-category">সফটওয়্যার প্রকল্প ব্যবস্থাপনা</div>
+    <h2 class="article-title">Agile Project Management</h2>
+    <div class="article-meta">প্রকাশিত: ১২ মার্চ, ২০২৪ | বিভাগ: প্রজেক্ট ম্যানেজমেন্ট | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>Agile methodology ব্যবহার করে সফটওয়্যার প্রকল্প কার্যকরভাবে পরিচালনার কৌশল। দ্রুত মানসম্মত ডেলিভারি এবং টিম কোলাবোরেশন বাড়ানোর জন্য এটি জনপ্রিয়।</p>
+
+        <h4>মূল চর্চাসমূহ:</h4>
+        <ul>
+            <li>Scrum & Kanban frameworks</li>
+            <li>Sprint Planning ও Retrospective</li>
+            <li>User Stories & Backlog Grooming</li>
+            <li>Burndown Charts ও Velocity Tracking</li>
+            <li>Continuous Feedback Loops</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>Advanced Agile Practices:</h4>
+
+            <h4>১. Scaling Agile:</h4>
+            <ul>
+                <li>SAFe (Scaled Agile Framework)</li>
+                <li>LeSS (Large-Scale Scrum)</li>
+                <li>Agile Portfolio Management</li>
+            </ul>
+
+            <h4>২. Team Collaboration Tools:</h4>
+            <ul>
+                <li>Jira, Trello, Asana for Task Management</li>
+                <li>Slack/Microsoft Teams for Communication</li>
+                <li>Confluence/Notion for Documentation</li>
+            </ul>
+
+            <h4>৩. Risk & Quality Management:</h4>
+            <ul>
+                <li>Risk identification & mitigation plans</li>
+                <li>Definition of Done (DoD) & Acceptance Criteria</li>
+                <li>Regular Quality Assurance (QA) checkpoints</li>
+            </ul>
+
+            <p><strong>Agile Mindset:</strong> পরিবর্তন মেনে নিয়ে, ক্রমাগত শেখা ও মানোন্নয়নের দিকে মনোযোগ দিন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+
+
+
+<article class="newspaper-article">
+    <div class="article-category">অপারেটিং সিস্টেম</div>
+    <h2 class="article-title">কিভাবে পেনড্রাইভ দিয়ে Windows ইনস্টল করবেন</h2>
+    <div class="article-meta">প্রকাশিত: ১৫ জুলাই, ২০২৫ | বিভাগ: উইন্ডোজ | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>পেনড্রাইভ ব্যবহার করে Windows ইনস্টল করা আজকাল খুব সহজ ও দ্রুত একটি পদ্ধতি। নীচে ধাপে ধাপে প্রক্রিয়া বর্ণনা করা হলো।</p>
+        
+        <h4>প্রধান ধাপসমূহ:</h4>
+        <ul>
+            <li>একটি বুটেবল পেনড্রাইভ তৈরি করুন</li>
+            <li>বায়োস/ইউইফাই থেকে USB বুট সিলেক্ট করুন</li>
+            <li>Windows সেটআপ চালিয়ে ইনস্টলেশন সম্পূর্ণ করুন</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত ধাপসমূহ:</h4>
+
+            <h4>১. বুটেবল পেনড্রাইভ তৈরি:</h4>
+            <ul>
+                <li>৮ জিবি বা তার বেশি মেমোরির একটি পেনড্রাইভ নিন।</li>
+                <li>রুফাস (Rufus) সফটওয়্যার ডাউনলোড করুন।</li>
+                <li>মাইক্রোসফট ওয়েবসাইট থেকে Windows ISO ফাইল ডাউনলোড করুন।</li>
+                <li>রুফাস চালিয়ে পেনড্রাইভ এবং ISO ফাইল সিলেক্ট করে Start চাপুন।</li>
+            </ul>
+
+            <h4>২. BIOS/UEFI সেটিংস পরিবর্তন:</h4>
+            <ul>
+                <li>কম্পিউটার চালু করে DEL/F2/F10/F12 চেপে BIOS/UEFI তে ঢুকুন।</li>
+                <li>Boot Priority তে USB Drive কে প্রথমে দিন।</li>
+                <li>সেটিংস সেভ করে কম্পিউটার রিস্টার্ট দিন।</li>
+            </ul>
+
+            <h4>৩. Windows ইনস্টল করা:</h4>
+            <ul>
+                <li>কম্পিউটার চালু হলে USB থেকে Windows সেটআপ শুরু হবে।</li>
+                <li>ভাষা এবং টাইম সিলেক্ট করুন ও “Install Now” ক্লিক করুন।</li>
+                <li>ড্রাইভ পার্টিশন নির্বাচন করে Windows ইনস্টলেশন সম্পূর্ণ করুন।</li>
+            </ul>
+
+            <p><strong>পরামর্শ:</strong> ইনস্টলেশনের আগে প্রয়োজনীয় ডেটা ব্যাকআপ নিন এবং ইন্টারনেট কানেকশন চালু রাখুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+
+
+<article class="newspaper-article">
+    <div class="article-category">আইটি সাপোর্ট</div>
+    <h2 class="article-title">টিকেটিং সিস্টেম: Jira, ServiceNow এবং OTRS ব্যবহারের সম্পূর্ণ গাইড</h2>
+    <div class="article-meta">প্রকাশিত: ২৫ আগস্ট, ২০২৫ | বিভাগ: আইটি ম্যানেজমেন্ট | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>টিকেটিং সিস্টেম আধুনিক আইটি সাপোর্ট এবং প্রজেক্ট ম্যানেজমেন্টের অপরিহার্য অংশ। Jira, ServiceNow এবং OTRS হলো তিনটি জনপ্রিয় টিকেটিং প্ল্যাটফর্ম যা বিভিন্ন ধরনের সংস্থায় ব্যবহৃত হয়।</p>
+        
+        <h4>প্রধান টিকেটিং সিস্টেমসমূহ:</h4>
+        <ul>
+            <li><strong>Jira:</strong> প্রজেক্ট ম্যানেজমেন্ট এবং ইস্যু ট্র্যাকিং</li>
+            <li><strong>ServiceNow:</strong> এন্টারপ্রাইজ সার্ভিস ম্যানেজমেন্ট</li>
+            <li><strong>OTRS:</strong> কাস্টমার সার্ভিস এবং হেল্পডেস্ক</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত গাইড:</h4>
+
+            <h4>১. Jira ব্যবহারের পদ্ধতি:</h4>
+            <ul>
+                <li>প্রথমে <a href="https://id.atlassian.com/signup" target="_blank">Atlassian একাউন্ট তৈরি করুন</a></li>
+                <li>প্রজেক্ট তৈরি করুন এবং টিম মেম্বারদের যোগ করুন</li>
+                <li>ইস্যু তৈরি করতে "Create" বাটনে ক্লিক করুন</li>
+                <li>Issue Type নির্বাচন করুন (Bug, Task, Story, Epic)</li>
+                <li>Priority এবং Assignee সেট করুন</li>
+                <li>বিস্তারিত বর্ণনা এবং Attachment যোগ করুন</li>
+                <li>Workflow অনুযায়ী ইস্যুর স্ট্যাটাস আপডেট করুন</li>
+            </ul>
+
+            <h4>২. ServiceNow এর ব্যবহার:</h4>
+            <ul>
+                <li>প্রথমে <a href="https://developer.servicenow.com/dev.do" target="_blank">ServiceNow Developer একাউন্ট তৈরি করুন</a></li>
+                <li>Service Portal থেকে নতুন টিকেট তৈরি করুন</li>
+                <li>Incident, Request, Problem এর মধ্যে টাইপ নির্বাচন করুন</li>
+                <li>Category এবং Subcategory নির্দিষ্ট করুন</li>
+                <li>Impact এবং Urgency লেভেল সেট করুন</li>
+                <li>Assignment Group এর কাছে টিকেট রাউট করুন</li>
+                <li>SLA নিয়মানুযায়ী টিকেট ট্র্যাক করুন</li>
+            </ul>
+
+            <h4>৩. OTRS সিস্টেম পরিচালনা:</h4>
+            <ul>
+                <li>প্রথমে <a href="https://otrs.com/try/" target="_blank">OTRS ট্রায়াল একাউন্ট তৈরি করুন</a></li>
+                <li>Agent Interface থেকে লগইন করুন</li>
+                <li>New Email Ticket অথবা Phone Ticket তৈরি করুন</li>
+                <li>Customer Information সংযোজন করুন</li>
+                <li>Queue এবং State নির্বাচন করুন</li>
+                <li>Priority এবং Type নির্ধারণ করুন</li>
+                <li>Response Template ব্যবহার করে দ্রুত উত্তর দিন</li>
+            </ul>
+
+            <p><strong>পরামর্শ:</strong> টিকেট তৈরি করার সময় সবসময় পর্যাপ্ত তথ্য প্রদান করুন এবং স্ক্রিনশট সংযুক্ত করুন। নিয়মিত টিকেটের স্ট্যাটাস আপডেট করুন এবং সংস্থার নীতি অনুযায়ী সঠিক প্রক্রিয়া অনুসরণ করুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+<article class="newspaper-article">
+    <div class="article-category">হার্ডওয়্যার ম্যানেজমেন্ট</div>
+    <h2 class="article-title">হার্ডওয়্যার লাইফসাইকেল ম্যানেজমেন্ট: সম্পূর্ণ গাইড</h2>
+    <div class="article-meta">প্রকাশিত: ২৫ আগস্ট, ২০২৫ | বিভাগ: আইটি ম্যানেজমেন্ট | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>হার্ডওয়্যার লাইফসাইকেল ম্যানেজমেন্ট হলো একটি কৌশলগত পদ্ধতি যা হার্ডওয়্যারের পরিকল্পনা, ক্রয়, ব্যবহার এবং অবসর নেওয়া পর্যন্ত সম্পূর্ণ প্রক্রিয়া নিয়ন্ত্রণ করে।</p>
+        
+        <h4>প্রধান লাইফসাইকেল পর্যায়সমূহ:</h4>
+        <ul>
+            <li><strong>পরিকল্পনা ও বিশ্লেষণ:</strong> প্রয়োজন নির্ধারণ এবং বাজেট প্রস্তুতি</li>
+            <li><strong>ক্রয় ও সংগ্রহ:</strong> ভেন্ডর নির্বাচন এবং হার্ডওয়্যার কেনাকাটা</li>
+            <li><strong>স্থাপন ও কনফিগারেশন:</strong> হার্ডওয়্যার ইনস্টল এবং সেটআপ</li>
+            <li><strong>পরিচালনা ও রক্ষণাবেক্ষণ:</strong> নিয়মিত মনিটরিং এবং আপগ্রেড</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত লাইফসাইকেল প্রক্রিয়া:</h4>
+
+            <h4>১. পরিকল্পনা ও বিশ্লেষণ পর্যায়:</h4>
+            <ul>
+                <li>বিজনেস প্রয়োজনীয়তা এবং প্রযুক্তিগত চাহিদা মূল্যায়ন করুন</li>
+                <li>বর্তমান হার্ডওয়্যার ইনভেন্টরি পর্যালোচনা করুন</li>
+                <li>ভবিষ্যতের স্কেলিং প্রয়োজনীয়তা নির্ধারণ করুন</li>
+                <li>বাজেট পরিকল্পনা এবং ROI হিসাব করুন</li>
+                <li>টেকনোলজি রোডম্যাপ তৈরি করুন</li>
+                <li>ভেন্ডর গবেষণা এবং মার্কেট অ্যানালাইসিস করুন</li>
+            </ul>
+
+            <h4>২. ক্রয় ও সংগ্রহ প্রক্রিয়া:</h4>
+            <ul>
+                <li>RFP (Request for Proposal) প্রস্তুত করুন</li>
+                <li>বিভিন্ন ভেন্ডরের থেকে কোটেশন সংগ্রহ করুন</li>
+                <li>টেকনিক্যাল স্পেসিফিকেশন এবং কমপ্যাটিবিলিটি যাচাই করুন</li>
+                <li>ওয়ারেন্টি এবং সাপোর্ট অপশন পর্যালোচনা করুন</li>
+                <li>পারচেজ অর্ডার প্রসেসিং এবং ডেলিভারি ট্র্যাকিং</li>
+                <li>রিসিভিং এবং কোয়ালিটি চেকিং সম্পন্ন করুন</li>
+            </ul>
+
+            <h4>৩. স্থাপন ও কনফিগারেশন:</h4>
+            <ul>
+                <li>সাইট প্রিপারেশন এবং ইনফ্রাস্ট্রাকচার প্রস্তুতি</li>
+                <li>হার্ডওয়্যার আনবক্সিং এবং ইনিশিয়াল ইনস্পেকশন</li>
+                <li>সিস্টেম ইনস্টলেশন এবং নেটওয়ার্ক কানেকটিভিটি</li>
+                <li>OS ইনস্টলেশন এবং প্রয়োজনীয় সফটওয়্যার কনফিগারেশন</li>
+                <li>সিকিউরিটি সেটিংস এবং অ্যাক্সেস কন্ট্রোল প্রয়োগ</li>
+                <li>পারফরমেন্স টেস্টিং এবং ইউজার অ্যাকসেপট্যান্স টেস্টিং</li>
+            </ul>
+
+            <h4>৪. পরিচালনা ও রক্ষণাবেক্ষণ:</h4>
+            <ul>
+                <li>নিয়মিত হেল্থ চেকআপ এবং পারফরমেন্স মনিটরিং</li>
+                <li>প্রতিরোধমূলক রক্ষণাবেক্ষণ সূচি প্রয়োগ করুন</li>
+                <li>সিকিউরিটি প্যাচ এবং ফার্মওয়্যার আপডেট প্রয়োগ</li>
+                <li>ব্যাকআপ এবং ডিজাস্টার রিকভারি পরিকল্পনা</li>
+                <li>ইনভেন্টরি ম্যানেজমেন্ট এবং অ্যাসেট ট্র্যাকিং</li>
+                <li>পারফরমেন্স অপটিমাইজেশন এবং ক্যাপাসিটি প্ল্যানিং</li>
+            </ul>
+
+            <h4>৫. আপগ্রেড ও রিপ্লেসমেন্ট:</h4>
+            <ul>
+                <li>EOL (End of Life) স্ট্যাটাস মনিটরিং করুন</li>
+                <li>পারফরমেন্স বেঞ্চমার্কিং এবং রিপ্লেসমেন্ট পরিকল্পনা</li>
+                <li>ডাটা মাইগ্রেশন এবং সিস্টেম ট্রানজিশন</li>
+                <li>পুরাতন হার্ডওয়্যার ডিকমিশনিং এবং ডাটা স্যানিটাইজেশন</li>
+                <li>রিসাইক্লিং অথবা ডিসপোজাল প্রক্রিয়া</li>
+            </ul>
+
+            <h4>৬. গুরুত্বপূর্ণ টুলস ও প্ল্যাটফর্ম:</h4>
+            <ul>
+                <li><strong>Asset Management:</strong> ServiceNow IT Asset Management, ManageEngine AssetExplorer</li>
+                <li><strong>Monitoring:</strong> PRTG, SolarWinds, Nagios</li>
+                <li><strong>Inventory:</strong> Lansweeper, Spiceworks</li>
+                <li><strong>Documentation:</strong> IT Glue, Confluence</li>
+            </ul>
+
+            <p><strong>সর্বোত্তম অনুশীলন:</strong> নিয়মিত অডিট করুন, সঠিক ডকুমেন্টেশন রাখুন, প্রো-অ্যাক্টিভ পরিকল্পনা করুন এবং ভেন্ডর রিলেশনশিপ বজায় রাখুন। এতে হার্ডওয়্যার লাইফসাইকেলে সর্বোচ্চ দক্ষতা এবং কস্ট সেভিং নিশ্চিত হবে।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+
+
+
+
+
+
+<article class="newspaper-article">
+    <div class="article-category">নেটওয়ার্কিং</div>
+    <h2 class="article-title">মাইক্রোটিক রাউটার সেটাপ: সম্পূর্ণ কনফিগারেশন গাইড</h2>
+    <div class="article-meta">প্রকাশিত: ২৫ আগস্ট, ২০২৫ | বিভাগ: নেটওয়ার্ক প্রশাসন | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>মাইক্রোটিক রাউটার একটি শক্তিশালী এবং সাশ্রয়ী নেটওয়ার্কিং সমাধান। RouterOS ব্যবহার করে এর বিভিন্ন ফিচার কনফিগার করা যায়। নিচে ধাপে ধাপে সেটাপ প্রক্রিয়া বর্ণনা করা হলো।</p>
+        
+        <h4>প্রাথমিক সেটাপ ধাপসমূহ:</h4>
+        <ul>
+            <li><strong>হার্ডওয়্যার সংযোগ:</strong> পাওয়ার এবং ইথারনেট কেবল সংযোগ</li>
+            <li><strong>ইনিশিয়াল অ্যাক্সেস:</strong> Winbox বা Web Interface ব্যবহার</li>
+            <li><strong>বেসিক কনফিগারেশন:</strong> IP সেট করা এবং ইন্টারনেট সংযোগ</li>
+            <li><strong>সিকিউরিটি সেটিংস:</strong> ফায়ারওয়াল এবং পাসওয়ার্ড কনফিগারেশন</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত কনফিগারেশন গাইড:</h4>
+
+            <h4>১. প্রাথমিক হার্ডওয়্যার সেটাপ:</h4>
+            <ul>
+                <li>রাউটারে পাওয়ার অ্যাডাপ্টার সংযুক্ত করুন</li>
+                <li>WAN পোর্টে ISP এর ইথারনেট কেবল সংযোগ করুন</li>
+                <li>LAN পোর্টে কম্পিউটারের ইথারনেট সংযোগ দিন</li>
+                <li>Reset বাটন চেপে Factory Reset করুন (প্রয়োজনে)</li>
+                <li>Power LED এবং Ethernet Link Status চেক করুন</li>
+            </ul>
+
+            <h4>২. Winbox দিয়ে প্রাথমিক সংযোগ:</h4>
+            <ul>
+                <li><a href="https://mikrotik.com/download" target="_blank">MikroTik ওয়েবসাইট থেকে Winbox ডাউনলোড করুন</a></li>
+                <li>Winbox চালু করে "Neighbors" ট্যাবে ক্লিক করুন</li>
+                <li>MikroTik রাউটার সিলেক্ট করে MAC Address দিয়ে Connect করুন</li>
+                <li>Default Username: admin, Password: (খালি রাখুন)</li>
+                <li>প্রথম লগইনে Quick Set উইজার্ড আসবে</li>
+            </ul>
+
+            <h4>৩. বেসিক IP কনফিগারেশন:</h4>
+            <ul>
+                <li>IP > Addresses থেকে নতুন IP Address যোগ করুন</li>
+                <li>LAN Interface (bridge) এ 192.168.1.1/24 সেট করুন</li>
+                <li>WAN Interface এ ISP প্রদত্ত IP বা DHCP Client সেট করুন</li>
+                <li>IP > Routes থেকে Default Gateway কনফিগার করুন</li>
+                <li>IP > DNS এ Primary ও Secondary DNS সেট করুন</li>
+            </ul>
+
+            <h4>৪. DHCP Server কনফিগারেশন:</h4>
+            <ul>
+                <li>IP > DHCP Server থেকে DHCP Setup চালান</li>
+                <li>DHCP Interface হিসেবে bridge সিলেক্ট করুন</li>
+                <li>Address Pool রেঞ্জ সেট করুন (192.168.1.100-192.168.1.200)</li>
+                <li>Gateway এবং DNS Address কনফিগার করুন</li>
+                <li>Lease Time সেট করুন (সাধারণত 24 hours)</li>
+            </ul>
+
+            <h4>৫. WiFi কনফিগারেশন (Wireless রাউটারের জন্য):</h4>
+            <ul>
+                <li>Wireless > Security Profiles এ WPA2 Profile তৈরি করুন</li>
+                <li>Strong Pre-Shared Key (PSK) সেট করুন</li>
+                <li>Wireless > WiFi Interfaces এ SSID নাম দিন</li>
+                <li>Security Profile এবং Frequency Mode সেট করুন</li>
+                <li>Country Code এবং Channel Width কনফিগার করুন</li>
+                <li>Interface Enable করুন এবং Bridge এ যুক্ত করুন</li>
+            </ul>
+
+            <h4>৬. ফায়ারওয়াল ও সিকিউরিটি:</h4>
+            <ul>
+                <li>IP > Firewall > Filter Rules এ Basic Rules যোগ করুন</li>
+                <li>Input Chain এ LAN থেকে Router Access Allow করুন</li>
+                <li>Forward Chain এ NAT Rules কনফিগার করুন</li>
+                <li>Drop Invalid Connections Rule যুক্ত করুন</li>
+                <li>System > Users এ Strong Admin Password সেট করুন</li>
+                <li>Services থেকে অপ্রয়োজনীয় সার্ভিস Disable করুন</li>
+            </ul>
+
+            <h4>৭. NAT কনফিগারেশন:</h4>
+            <ul>
+                <li>IP > Firewall > NAT এ নতুন Rule যোগ করুন</li>
+                <li>Chain: srcnat, Out-Interface: WAN সিলেক্ট করুন</li>
+                <li>Action: masquerade সেট করুন</li>
+                <li>Src. Address: 192.168.1.0/24 দিন</li>
+                <li>Rule Enable করে Apply করুন</li>
+            </ul>
+
+            <h4>৮. Port Forwarding (প্রয়োজনে):</h4>
+            <ul>
+                <li>IP > Firewall > NAT এ Destination NAT Rule তৈরি করুন</li>
+                <li>Chain: dstnat, Protocol এবং Dst. Port নির্ধারণ করুন</li>
+                <li>Action: dst-nat, To Addresses: Local Server IP দিন</li>
+                <li>To Ports: Internal Port Number সেট করুন</li>
+            </ul>
+
+            <h4>৯. মনিটরিং ও রক্ষণাবেক্ষণ:</h4>
+            <ul>
+                <li>Tools > Ping দিয়ে Connectivity Test করুন</li>
+                <li>Interface > Monitor করে Traffic দেখুন</li>
+                <li>System > Logging এ Log Messages চেক করুন</li>
+                <li>Files > Backup দিয়ে Configuration Backup নিন</li>
+                <li>System > Routerboard এ Firmware Update চেক করুন</li>
+            </ul>
+
+            <p><strong>গুরুত্বপূর্ণ টিপস:</strong> নিয়মিত ব্যাকআপ নিন, Strong Password ব্যবহার করুন, Firmware আপডেট রাখুন এবং অপ্রয়োজনীয় Services বন্ধ রাখুন। কোনো সমস্যার জন্য MikroTik Wiki এবং Community Forum ব্যবহার করুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+<article class="newspaper-article">
+    <div class="article-category">নেটওয়ার্ক ম্যানেজমেন্ট</div>
+    <h2 class="article-title">মাইক্রোটিক রাউটারে Queue (ব্যান্ডউইথ কন্ট্রোল) সেটাপ গাইড</h2>
+    <div class="article-meta">প্রকাশিত: ২৫ আগস্ট, ২০২৫ | বিভাগ: নেটওয়ার্ক অপটিমাইজেশন | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>মাইক্রোটিক রাউটারের Queue ফিচার ব্যবহার করে ব্যান্ডউইথ কন্ট্রোল এবং ট্রাফিক ম্যানেজমেন্ট করা যায়। এটি নেটওয়ার্কে সুষম ইন্টারনেট ব্যবহার নিশ্চিত করে এবং নির্দিষ্ট ইউজারের জন্য স্পিড লিমিট করতে সাহায্য করে।</p>
+        
+        <h4>Queue এর প্রধান ধরনসমূহ:</h4>
+        <ul>
+            <li><strong>Simple Queue:</strong> সহজ ব্যান্ডউইথ লিমিটিং</li>
+            <li><strong>Queue Tree:</strong> উন্নত ট্রাফিক শেয়ারিং</li>
+            <li><strong>PCQ (Per Connection Queue):</strong> প্রতি কানেকশনে সমান ভাগ</li>
+            <li><strong>Hotspot Queue:</strong> Hotspot ইউজারদের জন্য স্পেশাল Queue</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত Queue কনফিগারেশন:</h4>
+
+            <h4>১. Simple Queue সেটাপ (একক ইউজারের জন্য):</h4>
+            <ul>
+                <li>Winbox এ Queues > Simple Queues এ যান</li>
+                <li>"+" বাটন চেপে নতুন Queue তৈরি করুন</li>
+                <li><strong>Name:</strong> Queue এর নাম দিন (যেমন: User_192.168.1.100)</li>
+                <li><strong>Target:</strong> IP Address দিন (192.168.1.100/32)</li>
+                <li><strong>Max-limit:</strong> Upload/Download Speed লিমিট (1M/5M)</li>
+                <li><strong>Burst-limit:</strong> সাময়িক Speed Boost (2M/10M)</li>
+                <li><strong>Burst-time:</strong> Burst Duration (10s/10s)</li>
+                <li>OK চেপে Apply করুন</li>
+            </ul>
+
+            <h4>২. IP Range এর জন্য Simple Queue:</h4>
+            <ul>
+                <li>নতুন Simple Queue তৈরি করুন</li>
+                <li><strong>Name:</strong> Network_Range</li>
+                <li><strong>Target:</strong> IP Range দিন (192.168.1.0/24)</li>
+                <li><strong>Per Connection Queue:</strong> PCQ Upload/PCQ Download</li>
+                <li><strong>Max-limit:</strong> Total Network Limit (10M/50M)</li>
+                <li>Advanced ট্যাবে Priority সেট করুন (1-8)</li>
+                <li>Enable করে Apply করুন</li>
+            </ul>
+
+            <h4>৩. PCQ (Per Connection Queue) তৈরি:</h4>
+            <ul>
+                <li>Queues > Queue Types এ যান</li>
+                <li>"+" চেপে নতুন PCQ Type তৈরি করুন</li>
+                <li><strong>Name:</strong> PCQ-Upload-Default</li>
+                <li><strong>Kind:</strong> pcq</li>
+                <li><strong>Rate:</strong> 512k (প্রতি কানেকশনের স্পিড)</li>
+                <li><strong>Classifier:</strong> src-address (Upload এর জন্য)</li>
+                <li>Download এর জন্য আরেকটি PCQ তৈরি করুন</li>
+                <li><strong>Classifier:</strong> dst-address (Download এর জন্য)</li>
+            </ul>
+
+            <h4>৪. Queue Tree সেটাপ (উন্নত):</h4>
+            <ul>
+                <li>প্রথমে Mangle Rules তৈরি করুন (IP > Firewall > Mangle)</li>
+                <li>Different Traffic Mark করুন (HTTP, Gaming, Streaming)</li>
+                <li>Queues > Queue Tree এ যান</li>
+                <li>Parent Queue তৈরি করুন (Total Bandwidth)</li>
+                <li>Child Queue তৈরি করুন (Different Services এর জন্য)</li>
+                <li><strong>Packet Mark:</strong> Mangle এ তৈরি Mark ব্যবহার করুন</li>
+                <li><strong>Priority:</strong> Traffic Type অনুযায়ী Priority দিন</li>
+            </ul>
+
+            <h4>৫. Hotspot User এর জন্য Queue:</h4>
+            <ul>
+                <li>IP > Hotspot > User Profiles এ যান</li>
+                <li>নতুন Profile তৈরি বা Edit করুন</li>
+                <li><strong>Rate Limit (rx/tx):</strong> Download/Upload Speed (5M/1M)</li>
+                <li><strong>Shared Users:</strong> একই Profile এর কতজন একসাথে ব্যবহার করবে</li>
+                <li>IP > Hotspot > Users এ User তৈরি করুন</li>
+                <li>Profile Assignment করুন</li>
+            </ul>
+
+            <h4>৬. Dynamic Queue Rules:</h4>
+            <ul>
+                <li>IP > Firewall > Address Lists তৈরি করুন</li>
+                <li>VIP Users, Regular Users, Limited Users Category করুন</li>
+                <li>Simple Queue এ Target Address List ব্যবহার করুন</li>
+                <li>Different Speed Limit বিভিন্ন Category এর জন্য সেট করুন</li>
+                <li>Script ব্যবহার করে Automatic Queue Management করুন</li>
+            </ul>
+
+            <h4>৭. Queue Monitoring ও Troubleshooting:</h4>
+            <ul>
+                <li>Queues > Simple Queues থেকে Real-time Traffic দেখুন</li>
+                <li>Tools > Torch দিয়ে Interface Traffic Monitor করুন</li>
+                <li>Interface > Monitor করে Total Bandwidth Usage চেক করুন</li>
+                <li>Queues > Statistics দেখে Queue Performance বিশ্লেষণ করুন</li>
+                <li>Terminal এ "/queue simple print stats" Command ব্যবহার করুন</li>
+            </ul>
+
+            <h4>৮. Advanced Queue Features:</h4>
+            <ul>
+                <li><strong>Burst:</strong> সাময়িক Speed Boost সেটিংস</li>
+                <li><strong>Priority:</strong> Traffic Priority সেট করুন (1 সর্বোচ্চ)</li>
+                <li><strong>Limit-at:</strong> Guaranteed Minimum Speed</li>
+                <li><strong>Queue Type:</strong> Default, PCQ, RED, SFQ নির্বাচন</li>
+                <li><strong>Packet Mark:</strong> Mangle Rules এর সাথে Integration</li>
+            </ul>
+
+            <h4>৯. Common Queue Commands (Terminal):</h4>
+            <ul>
+                <li><code>/queue simple add name="User1" target=192.168.1.100 max-limit=1M/5M</code></li>
+                <li><code>/queue simple print</code> - সব Queue দেখুন</li>
+                <li><code>/queue simple remove [find name="User1"]</code> - Queue মুছুন</li>
+                <li><code>/queue simple set [find name="User1"] max-limit=2M/10M</code> - Speed Update</li>
+                <li><code>/queue simple monitor [find name="User1"]</code> - Real-time Monitor</li>
+            </ul>
+
+            <h4>১০. এক ক্লিকে পূর্ণ /২৪ রেঞ্জে ৫ এমবি Queue সেটাপ:</h4>
+            <ul>
+                <li><strong>Method 1 - Single Command (সবচেয়ে সহজ):</strong></li>
+                <li><code>/queue simple add name="Network-5MB-Limit" target=192.168.1.0/24 max-limit=5M/5M queue=pcq-upload-default/pcq-download-default</code></li>
+                <li><strong>Method 2 - Script দিয়ে Individual Queue:</strong></li>
+                <li>Terminal এ নিচের Script টি পেস্ট করুন:</li>
+                <li><code>:for i from=1 to=254 do={ /queue simple add name=("Queue-192.168.1." . $i) target=("192.168.1." . $i . "/32") max-limit=5M/5M }</code></li>
+                <li><strong>Method 3 - PCQ দিয়ে Fair Sharing:</strong></li>
+                <li>প্রথমে PCQ Type তৈরি: <code>/queue type add name=pcq-5m kind=pcq pcq-rate=5M pcq-classifier=src-address</code></li>
+                <li>তারপর Simple Queue: <code>/queue simple add name="5MB-Network" target=192.168.1.0/24 queue=pcq-5m/pcq-5m</code></li>
+                <li><strong>Quick Setup Button এর জন্য:</strong> System > Scripts এ উপরের Script সেভ করে Hotkey assign করুন</li>
+            </ul>
+
+            <p><strong>সর্বোত্তম অনুশীলন:</strong> সবসময় Total Available Bandwidth এর চেয়ে কম Queue Limit দিন। Burst Settings সাবধানে ব্যবহার করুন। নিয়মিত Queue Performance Monitor করুন এবং প্রয়োজন অনুযায়ী Adjustment করুন। PCQ ব্যবহার করে Fair Usage নিশ্চিত করুন।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+
+
+
+
+
+<article class="newspaper-article">
+    <div class="article-category">IT সাপোর্ট ও ম্যানেজমেন্ট</div>
+    <h2 class="article-title">🔹 IT Support & End User Endpoint Management with Intune/SCCM</h2>
+    <div class="article-meta">প্রকাশিত: ২৫ আগস্ট, ২০২৫ | বিভাগ: আইটি ম্যানেজমেন্ট | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>Endpoint Management হলো একটি কৌশলগত পদ্ধতি যা Microsoft Intune এবং SCCM ব্যবহার করে সংস্থার সকল ডিভাইস, অ্যাপ্লিকেশন এবং ডাটা নিরাপত্তা কেন্দ্রীয়ভাবে পরিচালনা করে।</p>
+        
+        <h4>প্রধান সার্ভিস এলাকাসমূহ:</h4>
+        <ul>
+            <li><strong>ডিভাইস ম্যানেজমেন্ট:</strong> Windows, iOS, Android এবং macOS ডিভাইস পরিচালনা</li>
+            <li><strong>অ্যাপ্লিকেশন ডিপ্লয়মেন্ট:</strong> কেন্দ্রীয় সফটওয়্যার বিতরণ এবং আপডেট</li>
+            <li><strong>সিকিউরিটি ম্যানেজমেন্ট:</strong> কমপ্লায়েন্স পলিসি এবং কন্ডিশনাল অ্যাক্সেস</li>
+            <li><strong>End User সাপোর্ট:</strong> Remote troubleshooting এবং হেল্প ডেস্ক সার্ভিস</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত Endpoint Management প্রক্রিয়া:</h4>
+
+            <h4>১. Microsoft Intune Setup ও কনফিগারেশন:</h4>
+            <ul>
+                <li>Azure AD Integration এবং Intune tenant setup</li>
+                <li>Device enrollment policies for Windows, iOS, Android, macOS</li>
+                <li>Compliance policies এবং device restrictions</li>
+                <li>Configuration profiles (Wi-Fi, VPN, Email, Certificate)</li>
+                <li>Conditional Access policies এবং risk-based access</li>
+                <li>Mobile Application Management (MAM) এবং App Protection Policies</li>
+            </ul>
+
+            <h4>২. SCCM Deployment ও Management:</h4>
+            <ul>
+                <li>Site hierarchy planning (Primary, Secondary, CAS)</li>
+                <li>Configuration Manager client installation এবং deployment</li>
+                <li>Boundary groups এবং content distribution points</li>
+                <li>Software Update Point (SUP) configuration</li>
+                <li>Operating System Deployment (OSD) এবং task sequences</li>
+                <li>Hardware/Software inventory collection এবং reporting</li>
+            </ul>
+
+            <h4>৩. Application Management ও Deployment:</h4>
+            <ul>
+                <li>Application packaging (MSI, MSIX, Win32, MSA)</li>
+                <li>Deployment types এবং detection methods</li>
+                <li>User/Device targeting এবং collection management</li>
+                <li>Microsoft Store for Business integration</li>
+                <li>Line-of-Business (LOB) application deployment</li>
+                <li>Application supersedence এবং dependency management</li>
+            </ul>
+
+            <h4>৪. Device Security ও Compliance Management:</h4>
+            <ul>
+                <li>BitLocker encryption policies এবং key management</li>
+                <li>Windows Defender ATP integration</li>
+                <li>Windows Firewall configuration profiles</li>
+                <li>Certificate deployment এবং SCEP/PKCS configuration</li>
+                <li>Data Loss Prevention (DLP) policies</li>
+                <li>Remote wipe এবং selective wipe capabilities</li>
+            </ul>
+
+            <h4>৫. End User Support Services:</h4>
+            <ul>
+                <li>Remote assistance tools (Quick Assist, TeamViewer)</li>
+                <li>Company Portal configuration এবং customization</li>
+                <li>ServiceNow/ITSM integration for ticket management</li>
+                <li>Self-service password reset এবং account unlock</li>
+                <li>User training programs এবং documentation</li>
+                <li>Troubleshooting utilities এবং diagnostic tools</li>
+            </ul>
+
+            <h4>৬. Monitoring, Reporting ও Analytics:</h4>
+            <ul>
+                <li>Device compliance dashboards এবং real-time monitoring</li>
+                <li>Application usage analytics এবং license optimization</li>
+                <li>Security posture assessment reports</li>
+                <li>Performance metrics এবং user experience monitoring</li>
+                <li>Audit reports for regulatory compliance</li>
+                <li>Cost management এবং resource optimization</li>
+            </ul>
+
+            <h4>৭. Hybrid ও Co-Management Strategy:</h4>
+            <ul>
+                <li>Co-management setup between SCCM and Intune</li>
+                <li>Workload migration planning এবং gradual transition</li>
+                <li>Cloud Attach configuration for hybrid scenarios</li>
+                <li>Tenant Attach for SCCM devices in Microsoft Endpoint Manager</li>
+                <li>Desktop Analytics integration for Windows deployment</li>
+            </ul>
+
+            <h4>৮. গুরুত্বপূর্ণ Tools ও Platforms:</h4>
+            <ul>
+                <li><strong>Management Platforms:</strong> Microsoft Endpoint Manager, System Center Configuration Manager</li>
+                <li><strong>Security Tools:</strong> Microsoft Defender for Endpoint, Azure AD Identity Protection</li>
+                <li><strong>Monitoring:</strong> Microsoft Endpoint Analytics, Azure Monitor</li>
+                <li><strong>Automation:</strong> PowerShell DSC, Azure Automation</li>
+                <li><strong>Documentation:</strong> Microsoft 365 SharePoint, Confluence</li>
+            </ul>
+
+            <p><strong>সর্বোত্তম অনুশীলন:</strong> নিয়মিত compliance monitoring করুন, proactive security policies প্রয়োগ করুন, user training programs পরিচালনা করুন এবং hybrid cloud strategy অনুসরণ করুন। এতে endpoint security এবং user productivity সর্বোচ্চ নিশ্চিত হবে।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+
+<article class="newspaper-article">
+    <div class="article-category">নেটওয়ার্কিং বেসিক</div>
+    <h2 class="article-title">🔹 Basic Networking: নেটওয়ার্কিং এর মূলভিত্তি</h2>
+    <div class="article-meta">প্রকাশিত: ২৫ আগস্ট, ২০২৫ | বিভাগ: আইটি ম্যানেজমেন্ট | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>Basic Networking হলো কম্পিউটার নেটওয়ার্কের মৌলিক ধারণা যা IP Address, Subnet, Router-Switch এবং Wi-Fi এর কার্যপ্রণালী বোঝাতে সাহায্য করে।</p>
+        
+        <h4>প্রধান নেটওয়ার্কিং বিষয়সমূহ:</h4>
+        <ul>
+            <li><strong>IP Address:</strong> ডিভাইসের অনন্য পরিচয় এবং কমিউনিকেশন সিস্টেম</li>
+            <li><strong>Subnet & Gateway:</strong> নেটওয়ার্ক বিভাজন এবং রাউটিং পদ্ধতি</li>
+            <li><strong>Network Types:</strong> LAN, WAN, MAN এর পার্থক্য ও ব্যবহার</li>
+            <li><strong>Device Configuration:</strong> Router ও Switch এর মূল সেটআপ</li>
+            <li><strong>Wireless Security:</strong> Wi-Fi নেটওয়ার্ক সুরক্ষা</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত নেটওয়ার্কিং গাইড:</h4>
+
+            <h4>১. IP Address কী এবং কিভাবে কাজ করে:</h4>
+            <ul>
+                <li><strong>IPv4 Structure:</strong> ৩২-বিট address (যেমন: 192.168.1.100)</li>
+                <li><strong>Address Classes:</strong> Class A (1.0.0.0 - 126.255.255.255), Class B (128.0.0.0 - 191.255.255.255), Class C (192.0.0.0 - 223.255.255.255)</li>
+                <li><strong>Private IP Ranges:</strong> 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16</li>
+                <li><strong>Public vs Private:</strong> Internet routable vs Local network only</li>
+                <li><strong>Static vs Dynamic:</strong> Manual assignment vs DHCP automatic</li>
+                <li><strong>IPv6 Basics:</strong> ১২৮-বিট addressing (2001:db8::1234:5678)</li>
+            </ul>
+
+            <h4>২. Subnet Mask ও Default Gateway সহজ ভাষায়:</h4>
+            <ul>
+                <li><strong>Subnet Mask Function:</strong> Network ও Host portion আলাদা করা</li>
+                <li><strong>Common Masks:</strong> 255.255.255.0 (/24), 255.255.0.0 (/16), 255.0.0.0 (/8)</li>
+                <li><strong>CIDR Notation:</strong> /24 = 255.255.255.0, /16 = 255.255.0.0</li>
+                <li><strong>Subnet Calculation:</strong> Network ID, Broadcast address, Host range</li>
+                <li><strong>Default Gateway:</strong> Local network থেকে বাহিরে যাওয়ার পথ</li>
+                <li><strong>Gateway Configuration:</strong> Router এর LAN interface IP হিসেবে set করা</li>
+            </ul>
+
+            <h4>৩. LAN, WAN, MAN নেটওয়ার্কের পার্থক্য:</h4>
+            <ul>
+                <li><strong>LAN (Local Area Network):</strong> একই বিল্ডিং/অফিসের মধ্যে সীমিত</li>
+                <li><strong>- Coverage Area:</strong> ১০ মিটার থেকে ১ কিলোমিটার</li>
+                <li><strong>- Speed:</strong> ১০ Mbps থেকে ১০ Gbps</li>
+                <li><strong>- Examples:</strong> Office network, Home Wi-Fi</li>
+                <li><strong>WAN (Wide Area Network):</strong> শহর, দেশ বা মহাদেশ জুড়ে</li>
+                <li><strong>- Coverage:</strong> ১০০ কিলোমিটার থেকে হাজার কিলোমিটার</li>
+                <li><strong>- Examples:</strong> Internet, Corporate VPN</li>
+                <li><strong>MAN (Metropolitan Area Network):</strong> শহরব্যাপী নেটওয়ার্ক</li>
+                <li><strong>- Coverage:</strong> ৫-৫০ কিলোমিটার radius</li>
+                <li><strong>- Examples:</strong> Cable TV network, City Wi-Fi</li>
+            </ul>
+
+            <h4>৪. Router & Switch Basic Configuration:</h4>
+            <ul>
+                <li><strong>Router Configuration:</strong></li>
+                <li>- WAN Interface setup (PPPoE/DHCP/Static)</li>
+                <li>- LAN Interface IP assignment (192.168.1.1/24)</li>
+                <li>- DHCP Pool configuration (192.168.1.10-100)</li>
+                <li>- Port Forwarding এবং NAT rules</li>
+                <li>- Firewall basic rules</li>
+                <li><strong>Switch Configuration:</strong></li>
+                <li>- VLAN creation এবং assignment</li>
+                <li>- Port security configuration</li>
+                <li>- Spanning Tree Protocol (STP) basics</li>
+                <li>- Link Aggregation (Port Channel/LACP)</li>
+                <li>- Management IP assignment</li>
+            </ul>
+
+            <h4>৫. Wi-Fi Network Setup & Security Basics:</h4>
+            <ul>
+                <li><strong>Wireless Standards:</strong> 802.11a/b/g/n/ac/ax (Wi-Fi 6)</li>
+                <li><strong>Frequency Bands:</strong> 2.4GHz (longer range) vs 5GHz (higher speed)</li>
+                <li><strong>Channel Selection:</strong> 2.4GHz (1,6,11), 5GHz (36,40,44,48...)</li>
+                <li><strong>Security Protocols:</strong></li>
+                <li>- WEP (Deprecated - খুবই দুর্বল)</li>
+                <li>- WPA/WPA2-PSK (Personal) - AES encryption</li>
+                <li>- WPA2/WPA3-Enterprise - RADIUS authentication</li>
+                <li><strong>Access Point Setup:</strong></li>
+                <li>- SSID configuration এবং broadcast settings</li>
+                <li>- Transmit power adjustment</li>
+                <li>- Guest network isolation</li>
+                <li>- MAC address filtering</li>
+                <li>- QoS (Quality of Service) configuration</li>
+            </ul>
+
+            <h4>৬. Network Troubleshooting Commands:</h4>
+            <ul>
+                <li><strong>Windows Commands:</strong> ipconfig, ping, tracert, nslookup, netstat</li>
+                <li><strong>Linux Commands:</strong> ifconfig, ip, ping, traceroute, dig, ss</li>
+                <li><strong>Network Testing:</strong> Speed test, latency check, packet loss analysis</li>
+                <li><strong>Cable Testing:</strong> Cable tester, continuity check</li>
+            </ul>
+
+            <h4>৭. গুরুত্বপূর্ণ Network Tools:</h4>
+            <ul>
+                <li><strong>Monitoring:</strong> Wireshark, PRTG, SolarWinds</li>
+                <li><strong>Configuration:</strong> Putty, Tera Term, SSH clients</li>
+                <li><strong>Design:</strong> Packet Tracer, GNS3, EVE-NG</li>
+                <li><strong>Documentation:</strong> Network diagrams, IP address management</li>
+            </ul>
+
+            <p><strong>সর্বোত্তম অনুশীলন:</strong> সঠিক IP addressing scheme ব্যবহার করুন, strong Wi-Fi security প্রয়োগ করুন, নিয়মিত firmware update করুন এবং network documentation রাখুন। এতে stable এবং secure network infrastructure নিশ্চিত হবে।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+
+
+
+<article class="newspaper-article">
+    <div class="article-category">সাইবার নিরাপত্তা</div>
+    <h2 class="article-title">🔹 Basic Security: ডিজিটাল নিরাপত্তার মূলভিত্তি</h2>
+    <div class="article-meta">প্রকাশিত: ২৫ আগস্ট, ২০২৫ | বিভাগ: আইটি ম্যানেজমেন্ট | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>Basic Security হলো ডিজিটাল জগতে নিজের তথ্য ও ডিভাইস সুরক্ষিত রাখার মৌলিক কৌশল যা Strong Password, 2FA, Antivirus এবং Safe Browsing এর মাধ্যমে সাইবার হুমকি থেকে সুরক্ষা প্রদান করে।</p>
+        
+        <h4>প্রধান সিকিউরিটি বিষয়সমূহ:</h4>
+        <ul>
+            <li><strong>Password Security:</strong> শক্তিশালী পাসওয়ার্ড তৈরি ও ব্যবস্থাপনা</li>
+            <li><strong>Multi-Factor Authentication:</strong> দ্বিস্তরের নিরাপত্তা ব্যবস্থা</li>
+            <li><strong>Antivirus Protection:</strong> ম্যালওয়ার ও ভাইরাস থেকে সুরক্ষা</li>
+            <li><strong>Firewall Security:</strong> নেটওয়ার্ক ট্রাফিক নিয়ন্ত্রণ</li>
+            <li><strong>Safe Browsing:</strong> নিরাপদ ইন্টারনেট ব্রাউজিং</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত সিকিউরিটি গাইড:</h4>
+
+            <h4>১. Strong Password কিভাবে বানাবেন:</h4>
+            <ul>
+                <li><strong>Password Requirements:</strong> কমপক্ষে ১২-১৬ অক্ষর লম্বা</li>
+                <li><strong>Character Mix:</strong> বড় হাতের অক্ষর (A-Z), ছোট হাতের (a-z), সংখ্যা (0-9), বিশেষ চিহ্ন (!@#$%^&*)</li>
+                <li><strong>Avoid Common Mistakes:</strong> জন্মতারিখ, নাম, সাধারণ শব্দ (password123) এড়িয়ে চলুন</li>
+                <li><strong>Passphrase Method:</strong> "MyDog@Loves2Play!" - মনে রাখা সহজ কিন্তু জটিল</li>
+                <li><strong>Password Managers:</strong> LastPass, Bitwarden, 1Password ব্যবহার করুন</li>
+                <li><strong>Unique Passwords:</strong> প্রতিটি অ্যাকাউন্টের জন্য আলাদা পাসওয়ার্ড</li>
+                <li><strong>Regular Updates:</strong> ৩-৬ মাস অন্তর গুরুত্বপূর্ণ পাসওয়ার্ড পরিবর্তন</li>
+            </ul>
+
+            <h4>২. Two-Factor Authentication (2FA) Setup:</h4>
+            <ul>
+                <li><strong>2FA কী:</strong> পাসওয়ার্ড + দ্বিতীয় verification method</li>
+                <li><strong>SMS-based 2FA:</strong> ফোন নম্বরে OTP পাঠানো (কম নিরাপদ)</li>
+                <li><strong>Authenticator Apps:</strong> Google Authenticator, Microsoft Authenticator, Authy</li>
+                <li><strong>Hardware Tokens:</strong> YubiKey, FIDO2 security keys (সবচেয়ে নিরাপদ)</li>
+                <li><strong>Backup Codes:</strong> Recovery codes সংরক্ষণ করুন</li>
+                <li><strong>Enable করার পদ্ধতি:</strong></li>
+                <li>- Gmail: Security settings → 2-Step Verification</li>
+                <li>- Facebook: Security → Two-Factor Authentication</li>
+                <li>- Banking: Mobile app security settings</li>
+                <li><strong>Best Practices:</strong> গুরুত্বপূর্ণ সব অ্যাকাউন্টে 2FA enable করুন</li>
+            </ul>
+
+            <h4>৩. Antivirus Software Setup & Update:</h4>
+            <ul>
+                <li><strong>Free Antivirus Options:</strong></li>
+                <li>- Windows Defender (Windows 10/11 built-in)</li>
+                <li>- Avast Free Antivirus</li>
+                <li>- AVG AntiVirus Free</li>
+                <li>- Bitdefender Antivirus Free Edition</li>
+                <li><strong>Paid Premium Options:</strong></li>
+                <li>- Kaspersky Internet Security</li>
+                <li>- Norton 360 Deluxe</li>
+                <li>- Bitdefender Total Security</li>
+                <li>- ESET Internet Security</li>
+                <li><strong>Installation Process:</strong></li>
+                <li>- পুরানো antivirus uninstall করুন</li>
+                <li>- Official website থেকে download করুন</li>
+                <li>- Full system scan run করুন</li>
+                <li><strong>Regular Maintenance:</strong></li>
+                <li>- Automatic updates enable করুন</li>
+                <li>- Weekly full system scan schedule করুন</li>
+                <li>- Real-time protection সব সময় on রাখুন</li>
+            </ul>
+
+            <h4>৪. Firewall কী এবং কেন দরকার:</h4>
+            <ul>
+                <li><strong>Firewall Definition:</strong> নেটওয়ার্ক ট্রাফিক নিয়ন্ত্রণের security barrier</li>
+                <li><strong>Types of Firewalls:</strong></li>
+                <li>- Software Firewall (Windows Defender Firewall)</li>
+                <li>- Hardware Firewall (Router built-in)</li>
+                <li>- Next-Generation Firewall (NGFW)</li>
+                <li><strong>Windows Firewall Setup:</strong></li>
+                <li>- Control Panel → System and Security → Windows Defender Firewall</li>
+                <li>- Turn on for Domain, Private, Public networks</li>
+                <li>- Configure inbound/outbound rules</li>
+                <li><strong>Router Firewall:</strong></li>
+                <li>- Admin panel access (192.168.1.1)</li>
+                <li>- Enable SPI (Stateful Packet Inspection)</li>
+                <li>- Block unnecessary ports</li>
+                <li>- Disable WPS এবং remote management</li>
+                <li><strong>Monitoring:</strong> Firewall logs regularly check করুন</li>
+            </ul>
+
+            <h4>৫. Safe Internet Browsing Practices:</h4>
+            <ul>
+                <li><strong>Browser Security Settings:</strong></li>
+                <li>- Chrome: Settings → Privacy and Security</li>
+                <li>- Firefox: Options → Privacy & Security</li>
+                <li>- Enable "Safe Browsing" protection</li>
+                <li>- Block pop-ups and malicious downloads</li>
+                <li><strong>HTTPS Verification:</strong> সব সময় "https://" দেখে নিন</li>
+                <li><strong>Suspicious Links:</strong> Unknown email links এ click করবেন না</li>
+                <li><strong>Download Safety:</strong></li>
+                <li>- শুধু trusted websites থেকে download করুন</li>
+                <li>- File scan করুন download এর পর</li>
+                <li>- Unknown file extensions (.exe, .scr) এড়িয়ে চলুন</li>
+                <li><strong>Social Media Safety:</strong></li>
+                <li>- Privacy settings check করুন</li>
+                <li>- Unknown friend requests accept করবেন না</li>
+                <li>- Personal information publicly share করবেন না</li>
+                <li><strong>Phishing Protection:</strong></li>
+                <li>- Banking websites এ direct typing করে যান</li>
+                <li>- Urgent email messages সন্দেহভাজন</li>
+                <li>- Personal info চাইলে verify করুন</li>
+            </ul>
+
+            <h4>৬. Additional Security Measures:</h4>
+            <ul>
+                <li><strong>Regular Backups:</strong> Google Drive, OneDrive, external drive</li>
+                <li><strong>Software Updates:</strong> OS, browsers, applications সব update রাখুন</li>
+                <li><strong>VPN Usage:</strong> Public Wi-Fi তে VPN ব্যবহার করুন</li>
+                <li><strong>Email Security:</strong> Spam filters enable করুন</li>
+                <li><strong>Mobile Security:</strong> App permissions check করুন</li>
+            </ul>
+
+            <h4>৭. গুরুত্বপূর্ণ Security Tools:</h4>
+            <ul>
+                <li><strong>Password Managers:</strong> Bitwarden, LastPass, KeePass</li>
+                <li><strong>Antivirus:</strong> Windows Defender, Kaspersky, Bitdefender</li>
+                <li><strong>VPN Services:</strong> ExpressVPN, NordVPN, CyberGhost</li>
+                <li><strong>Browser Extensions:</strong> uBlock Origin, HTTPS Everywhere</li>
+                <li><strong>Mobile Apps:</strong> Authenticator apps, secure browsers</li>
+            </ul>
+
+            <p><strong>সর্বোত্তম অনুশীলন:</strong> Security awareness training নিয়মিত নিন, suspicious activities সম্পর্কে সতর্ক থাকুন, regular security audit করুন এবং latest threat সম্পর্কে informed থাকুন। এতে comprehensive digital security নিশ্চিত হবে।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+<article class="newspaper-article">
+    <div class="article-category">সিস্টেম অ্যাডমিনিস্ট্রেশন</div>
+    <h2 class="article-title">🔹 Basic System Administration: সিস্টেম পরিচালনার মূলভিত্তি</h2>
+    <div class="article-meta">প্রকাশিত: ২৫ আগস্ট, ২০২৫ | বিভাগ: আইটি ম্যানেজমেন্ট | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>Basic System Administration হলো Windows operating system এর user management, file permissions, software handling এবং system monitoring এর মৌলিক কৌশল যা দৈনন্দিন সিস্টেম পরিচালনায় অপরিহার্য।</p>
+        
+        <h4>প্রধান সিস্টেম অ্যাডমিনিস্ট্রেশন বিষয়সমূহ:</h4>
+        <ul>
+            <li><strong>User Account Management:</strong> ব্যবহারকারী অ্যাকাউন্ট তৈরি ও নিয়ন্ত্রণ</li>
+            <li><strong>File Permissions:</strong> ফাইল ও ফোল্ডার অ্যাক্সেস নিয়ন্ত্রণ</li>
+            <li><strong>Software Management:</strong> প্রোগ্রাম ইনস্টল ও আনইনস্টল</li>
+            <li><strong>System Restore:</strong> সিস্টেম ব্যাকআপ ও পুনরুদ্ধার</li>
+            <li><strong>Performance Monitoring:</strong> সিস্টেম রিসোর্স ট্র্যাকিং</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত সিস্টেম অ্যাডমিনিস্ট্রেশন গাইড:</h4>
+
+            <h4>১. Windows User Account Management:</h4>
+            <ul>
+                <li><strong>Account Types:</strong></li>
+                <li>- Administrator: সম্পূর্ণ সিস্টেম নিয়ন্ত্রণ</li>
+                <li>- Standard User: সীমিত অধিকার</li>
+                <li>- Guest: অস্থায়ী অ্যাক্সেস (নিষ্ক্রিয় by default)</li>
+                <li><strong>User Account তৈরি:</strong></li>
+                <li>- Settings → Accounts → Family & other users</li>
+                <li>- Control Panel → User Accounts → Manage another account</li>
+                <li>- Computer Management → Local Users and Groups</li>
+                <li><strong>Password Policies:</strong></li>
+                <li>- Local Security Policy → Account Policies → Password Policy</li>
+                <li>- Minimum password length, complexity requirements</li>
+                <li>- Password expiration settings</li>
+                <li><strong>User Rights Assignment:</strong></li>
+                <li>- Local Security Policy → User Rights Assignment</li>
+                <li>- Log on as a service, Backup and restore files</li>
+                <li>- Network access permissions</li>
+                <li><strong>Profile Management:</strong></li>
+                <li>- User profile folders (C:\Users\Username)</li>
+                <li>- Roaming profiles configuration</li>
+                <li>- Profile cleanup এবং migration</li>
+            </ul>
+
+            <h4>২. File & Folder Permission (Read/Write/Execute):</h4>
+            <ul>
+                <li><strong>NTFS Permissions:</strong></li>
+                <li>- Full Control: সব অধিকার (Delete, Change permissions)</li>
+                <li>- Modify: Read, Write, Execute, Delete</li>
+                <li>- Read & Execute: ফাইল পড়া ও চালানো</li>
+                <li>- Write: নতুন ফাইল তৈরি ও modify</li>
+                <li>- Read: শুধু ফাইল দেখা</li>
+                <li>- List Folder Contents: ফোল্ডার content দেখা</li>
+                <li><strong>Permission Assignment:</strong></li>
+                <li>- Right-click → Properties → Security tab</li>
+                <li>- Edit → Add user/group → Select permissions</li>
+                <li>- Advanced → Special permissions</li>
+                <li><strong>Inheritance:</strong></li>
+                <li>- Parent folder permissions child এ automatically apply</li>
+                <li>- Inheritance disable/enable options</li>
+                <li>- Explicit vs Inherited permissions</li>
+                <li><strong>Effective Permissions:</strong></li>
+                <li>- Advanced → Effective Access tab</li>
+                <li>- User এর actual permissions check করা</li>
+                <li><strong>Ownership:</strong></li>
+                <li>- Advanced → Owner tab → Change owner</li>
+                <li>- Take Ownership permission প্রয়োজন</li>
+            </ul>
+
+            <h4>৩. Software Installation & Uninstallation:</h4>
+            <ul>
+                <li><strong>Installation Methods:</strong></li>
+                <li>- MSI Installer (Windows Installer)</li>
+                <li>- Setup.exe executables</li>
+                <li>- Microsoft Store apps</li>
+                <li>- Portable applications</li>
+                <li>- Package managers (Chocolatey, Winget)</li>
+                <li><strong>Silent Installation:</strong></li>
+                <li>- msiexec /i package.msi /quiet</li>
+                <li>- setup.exe /S বা /silent parameters</li>
+                <li>- Group Policy Software Installation</li>
+                <li><strong>Uninstallation Process:</strong></li>
+                <li>- Settings → Apps → Apps & features</li>
+                <li>- Control Panel → Programs and Features</li>
+                <li>- Third-party uninstallers (Revo Uninstaller)</li>
+                <li><strong>Registry Cleanup:</strong></li>
+                <li>- Windows Registry Editor (regedit)</li>
+                <li>- Leftover registry entries removal</li>
+                <li>- Registry backup before changes</li>
+                <li><strong>Software Deployment:</strong></li>
+                <li>- Group Policy → Software Installation</li>
+                <li>- SCCM/Intune for enterprise deployment</li>
+                <li>- Scheduled installation scripts</li>
+            </ul>
+
+            <h4>৪. System Restore Point তৈরি করা:</h4>
+            <ul>
+                <li><strong>System Restore Enable:</strong></li>
+                <li>- Control Panel → System → System Protection</li>
+                <li>- Configure → Turn on system protection</li>
+                <li>- Disk space allocation for restore points</li>
+                <li><strong>Manual Restore Point:</strong></li>
+                <li>- System Properties → System Protection → Create</li>
+                <li>- Description সহ restore point নাম দিন</li>
+                <li>- Important changes এর আগে create করুন</li>
+                <li><strong>Automatic Restore Points:</strong></li>
+                <li>- System automatically creates before:</li>
+                <li>- Windows Updates installation</li>
+                <li>- Driver installations</li>
+                <li>- Software installations</li>
+                <li><strong>System Restore Process:</strong></li>
+                <li>- System Properties → System Protection → System Restore</li>
+                <li>- Choose restore point from list</li>
+                <li>- Affected programs/drivers দেখুন</li>
+                <li>- Safe mode থেকেও restore করা যায়</li>
+                <li><strong>Alternative Backup Methods:</strong></li>
+                <li>- File History for personal files</li>
+                <li>- Windows Backup and Restore</li>
+                <li>- Third-party backup solutions</li>
+            </ul>
+
+            <h4>৫. Task Manager ও Resource Monitoring ব্যবহার:</h4>
+            <ul>
+                <li><strong>Task Manager Access:</strong></li>
+                <li>- Ctrl+Shift+Esc shortcut</li>
+                <li>- Ctrl+Alt+Del → Task Manager</li>
+                <li>- Right-click taskbar → Task Manager</li>
+                <li><strong>Processes Tab:</strong></li>
+                <li>- Running applications ও background processes</li>
+                <li>- CPU, Memory, Disk, Network usage</li>
+                <li>- Process priority change (Right-click → Set priority)</li>
+                <li>- End task for unresponsive programs</li>
+                <li><strong>Performance Tab:</strong></li>
+                <li>- Real-time CPU usage graphs</li>
+                <li>- Memory utilization (Available/In use)</li>
+                <li>- Disk activity monitoring</li>
+                <li>- Network adapter statistics</li>
+                <li>- GPU performance (Windows 10/11)</li>
+                <li><strong>Startup Tab:</strong></li>
+                <li>- Programs that start with Windows</li>
+                <li>- Startup impact (High/Medium/Low)</li>
+                <li>- Enable/Disable startup programs</li>
+                <li><strong>Users Tab:</strong></li>
+                <li>- Currently logged-in users</li>
+                <li>- Resource usage by user</li>
+                <li>- Disconnect/Sign off users</li>
+                <li><strong>Details Tab:</strong></li>
+                <li>- Process ID (PID) information</li>
+                <li>- Memory working set details</li>
+                <li>- Process command line arguments</li>
+                <li><strong>Advanced Monitoring Tools:</strong></li>
+                <li>- Resource Monitor (resmon.exe)</li>
+                <li>- Performance Monitor (perfmon.exe)</li>
+                <li>- Process Explorer (SysInternals)</li>
+            </ul>
+
+            <h4>৬. System Maintenance Tasks:</h4>
+            <ul>
+                <li><strong>Disk Cleanup:</strong> cleanmgr.exe - temporary files removal</li>
+                <li><strong>Disk Defragmentation:</strong> defrag.exe for HDD optimization</li>
+                <li><strong>System File Check:</strong> sfc /scannow command</li>
+                <li><strong>Windows Update:</strong> Regular security ও feature updates</li>
+                <li><strong>Event Viewer:</strong> System logs monitoring</li>
+            </ul>
+
+            <h4>৭. গুরুত্বপূর্ণ Administration Tools:</h4>
+            <ul>
+                <li><strong>Built-in Tools:</strong> Computer Management, Local Security Policy, Services</li>
+                <li><strong>Command Line:</strong> PowerShell, Command Prompt</li>
+                <li><strong>SysInternals Suite:</strong> Process Explorer, Autoruns, Process Monitor</li>
+                <li><strong>Third-party:</strong> CCleaner, TreeSize, WinDirStat</li>
+                <li><strong>Remote Management:</strong> Remote Desktop, PowerShell Remoting</li>
+            </ul>
+
+            <p><strong>সর্বোত্তম অনুশীলন:</strong> নিয়মিত system maintenance করুন, user permissions principle of least privilege অনুসরণ করুন, regular backup রাখুন এবং system changes এর আগে restore point তৈরি করুন। এতে stable এবং secure system administration নিশ্চিত হবে।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+
+<article class="newspaper-article">
+    <div class="article-category">কম্পিউটার হার্ডওয়্যার</div>
+    <h2 class="article-title">🔹 Basic Computer & Hardware: কম্পিউটার হার্ডওয়্যারের মূলভিত্তি</h2>
+    <div class="article-meta">প্রকাশিত: ২৫ আগস্ট, ২০২৫ | বিভাগ: আইটি ম্যানেজমেন্ট | লেখক: Asadul Islam - IT Support Specialist</div>
+    <div class="article-content">
+        <p>Basic Computer & Hardware হলো কম্পিউটারের মূল components, BIOS/UEFI system, operating system installation এবং peripheral devices এর পরিচিতি ও সেটআপ যা IT support এর জন্য অপরিহার্য জ্ঞান।</p>
+        
+        <h4>প্রধান হার্ডওয়্যার বিষয়সমূহ:</h4>
+        <ul>
+            <li><strong>Computer Components:</strong> CPU, RAM, Storage, GPU এর কার্যপ্রণালী</li>
+            <li><strong>BIOS/UEFI System:</strong> সিস্টেম firmware ও boot process</li>
+            <li><strong>OS Installation:</strong> Windows ও Linux installation guide</li>
+            <li><strong>Bootable Media:</strong> USB drive থেকে OS boot করা</li>
+            <li><strong>Peripheral Setup:</strong> Printer, Scanner ও অন্যান্য devices</li>
+        </ul>
+
+        <div class="expanded-content" style="display: none;">
+            <h4>বিস্তারিত কম্পিউটার হার্ডওয়্যার গাইড:</h4>
+
+            <h4>১. Computer Parts পরিচিতি (CPU, RAM, HDD, SSD, GPU):</h4>
+            <ul>
+                <li><strong>CPU (Central Processing Unit):</strong></li>
+                <li>- কম্পিউটারের "মস্তিষ্ক" - সব calculation ও instruction process করে</li>
+                <li>- Intel (Core i3/i5/i7/i9) vs AMD (Ryzen 3/5/7/9)</li>
+                <li>- Clock Speed (GHz), Cores, Threads, Cache memory</li>
+                <li>- Socket types: LGA, PGA, BGA</li>
+                <li>- Performance: Single-core vs Multi-core tasks</li>
+                <li><strong>RAM (Random Access Memory):</strong></li>
+                <li>- Temporary data storage - সিস্টেম চালু থাকলেই data থাকে</li>
+                <li>- Types: DDR3, DDR4, DDR5 (speed ও power efficiency বৃদ্ধি)</li>
+                <li>- Capacity: 4GB, 8GB, 16GB, 32GB+ options</li>
+                <li>- Speed: 2400MHz, 3200MHz, 3600MHz</li>
+                <li>- Dual Channel vs Single Channel performance</li>
+                <li><strong>HDD (Hard Disk Drive):</strong></li>
+                <li>- Mechanical storage - spinning disks + read/write heads</li>
+                <li>- Capacity: 500GB, 1TB, 2TB+ options</li>
+                <li>- Speed: 5400 RPM, 7200 RPM</li>
+                <li>- Interface: SATA III (6 Gbps)</li>
+                <li>- Advantages: বেশি storage, কম দাম</li>
+                <li>- Disadvantages: ধীর গতি, বেশি power consumption</li>
+                <li><strong>SSD (Solid State Drive):</strong></li>
+                <li>- Flash memory storage - কোন moving parts নেই</li>
+                <li>- Types: SATA SSD, NVMe M.2 SSD</li>
+                <li>- Speed: SATA (550 MB/s), NVMe (3000+ MB/s)</li>
+                <li>- Advantages: দ্রুত গতি, কম power, silent</li>
+                <li>- Disadvantages: বেশি দাম, limited write cycles</li>
+                <li><strong>GPU (Graphics Processing Unit):</strong></li>
+                <li>- Display output ও graphics processing</li>
+                <li>- Integrated GPU (CPU built-in) vs Dedicated GPU</li>
+                <li>- NVIDIA GeForce vs AMD Radeon</li>
+                <li>- VRAM (Video Memory) - 4GB, 8GB, 16GB+</li>
+                <li>- Applications: Gaming, Video editing, AI/ML</li>
+            </ul>
+
+            <h4>২. BIOS/UEFI কী এবং কিভাবে কাজ করে:</h4>
+            <ul>
+                <li><strong>BIOS (Basic Input/Output System):</strong></li>
+                <li>- পুরাতন firmware system (1980s technology)</li>
+                <li>- 16-bit mode, MBR partition table support</li>
+                <li>- 2TB storage limit, text-based interface</li>
+                <li>- Boot process: POST → Boot Loader → OS</li>
+                <li><strong>UEFI (Unified Extensible Firmware Interface):</strong></li>
+                <li>- আধুনিক firmware replacement for BIOS</li>
+                <li>- 64-bit mode, GPT partition support</li>
+                <li>- 9+ ZB storage limit, graphical interface</li>
+                <li>- Secure Boot, Faster boot times</li>
+                <li>- Network capabilities, Mouse support</li>
+                <li><strong>BIOS/UEFI Access:</strong></li>
+                <li>- Boot time এ F2, F12, Del, ESC key press</li>
+                <li>- Manufacturer specific keys (HP: F10, Dell: F2)</li>
+                <li>- Windows: Settings → Recovery → Advanced startup</li>
+                <li><strong>Important Settings:</strong></li>
+                <li>- Boot Order/Priority configuration</li>
+                <li>- Secure Boot enable/disable</li>
+                <li>- Legacy vs UEFI boot mode</li>
+                <li>- CPU virtualization (Intel VT-x, AMD-V)</li>
+                <li>- RAM settings (XMP profiles)</li>
+                <li>- Hardware monitoring (Temperature, Fan speed)</li>
+            </ul>
+
+            <h4>৩. Windows & Linux Basic Installation Guide:</h4>
+            <ul>
+                <li><strong>Windows Installation:</strong></li>
+                <li>- Windows 10/11 ISO download from Microsoft</li>
+                <li>- System Requirements: 4GB RAM, 64GB storage</li>
+                <li>- Boot from USB/DVD</li>
+                <li>- Partition setup (GPT for UEFI, MBR for Legacy)</li>
+                <li>- License key activation</li>
+                <li>- Driver installation ও Windows Updates</li>
+                <li>- Post-installation: Microsoft Account setup</li>
+                <li><strong>Ubuntu Linux Installation:</strong></li>
+                <li>- Ubuntu ISO download (LTS version recommended)</li>
+                <li>- Live USB creation and boot</li>
+                <li>- Try Ubuntu vs Install Ubuntu</li>
+                <li>- Partition schemes: Automatic vs Manual</li>
+                <li>- Dual boot with Windows (GRUB bootloader)</li>
+                <li>- User account creation</li>
+                <li>- Post-installation: Software updates, drivers</li>
+                <li><strong>Installation Best Practices:</strong></li>
+                <li>- Data backup before installation</li>
+                <li>- Driver collection (especially network)</li>
+                <li>- Product key/License documentation</li>
+                <li>- Installation log maintenance</li>
+                <li><strong>Common Installation Issues:</strong></li>
+                <li>- Secure Boot conflicts</li>
+                <li>- RAID controller drivers</li>
+                <li>- Network adapter driver missing</li>
+                <li>- Partition table corruption</li>
+            </ul>
+
+            <h4>৪. USB Drive Bootable কিভাবে বানাবেন:</h4>
+            <ul>
+                <li><strong>Windows Bootable USB:</strong></li>
+                <li>- Media Creation Tool (Microsoft official)</li>
+                <li>- Rufus (Third-party, advanced options)</li>
+                <li>- USB minimum 8GB capacity</li>
+                <li>- UEFI + Legacy boot support</li>
+                <li>- File system: FAT32 (UEFI) বা NTFS (Legacy)</li>
+                <li><strong>Linux Bootable USB:</strong></li>
+                <li>- balenaEtcher (Cross-platform, easy)</li>
+                <li>- UNetbootin (Multiple distro support)</li>
+                <li>- dd command (Linux terminal): sudo dd if=ubuntu.iso of=/dev/sdX</li>
+                <li>- Ventoy (Multi-boot USB tool)</li>
+                <li><strong>Step-by-step Process:</strong></li>
+                <li>1. USB drive format (backup data first)</li>
+                <li>2. Download ISO file from official source</li>
+                <li>3. Run bootable tool (Rufus/Etcher)</li>
+                <li>4. Select USB drive ও ISO file</li>
+                <li>5. Choose partition scheme (GPT/MBR)</li>
+                <li>6. Start creation process</li>
+                <li>7. Safely eject USB after completion</li>
+                <li><strong>Bootable USB Testing:</strong></li>
+                <li>- Boot from USB in target computer</li>
+                <li>- BIOS/UEFI boot order change</li>
+                <li>- Fast Boot disable for USB detection</li>
+                <li>- Secure Boot disable if needed</li>
+            </ul>
+
+            <h4>৫. Printer, Scanner এবং Peripheral Devices সেটআপ:</h4>
+            <ul>
+                <li><strong>Printer Setup:</strong></li>
+                <li>- USB Connection: Plug-and-play driver installation</li>
+                <li>- Network Printer: Settings → Printers & Scanners → Add</li>
+                <li>- Wi-Fi Direct printers: WPS button method</li>
+                <li>- Manual driver download from manufacturer</li>
+                <li>- Print test page ও quality adjustment</li>
+                <li>- Default printer setting</li>
+                <li><strong>Scanner Configuration:</strong></li>
+                <li>- Windows Scan app বা manufacturer software</li>
+                <li>- TWAIN driver installation</li>
+                <li>- Scan settings: Resolution (DPI), Color mode</li>
+                <li>- Document feeder vs Flatbed scanning</li>
+                <li>- OCR (Optical Character Recognition) software</li>
+                <li><strong>Common Peripheral Devices:</strong></li>
+                <li>- Keyboard & Mouse: USB/Wireless receiver</li>
+                <li>- External Hard Drives: USB 3.0/3.1 drivers</li>
+                <li>- Webcam: Privacy settings ও driver updates</li>
+                <li>- Audio devices: Headphones, Speakers, Microphones</li>
+                <li>- Network adapters: Wi-Fi dongles, Ethernet adapters</li>
+                <li><strong>Device Manager Usage:</strong></li>
+                <li>- Windows + X → Device Manager</li>
+                <li>- Yellow warning signs = driver issues</li>
+                <li>- Right-click → Update driver</li>
+                <li>- Uninstall ও reinstall problematic devices</li>
+                <li>- Hardware ID identification for driver search</li>
+                <li><strong>Troubleshooting Tips:</strong></li>
+                <li>- Windows Update for automatic drivers</li>
+                <li>- Manufacturer website for latest drivers</li>
+                <li>- Device compatibility check</li>
+                <li>- USB port testing (different ports)</li>
+                <li>- Device reset ও firmware updates</li>
+            </ul>
+
+            <h4>৬. Hardware Troubleshooting:</h4>
+            <ul>
+                <li><strong>POST (Power-On Self-Test):</strong> Beep codes interpretation</li>
+                <li><strong>Memory Testing:</strong> Windows Memory Diagnostic, MemTest86</li>
+                <li><strong>Storage Health:</strong> CrystalDiskInfo, chkdsk command</li>
+                <li><strong>Temperature Monitoring:</strong> HWMonitor, Core Temp</li>
+                <li><strong>Power Supply:</strong> Wattage calculation, efficiency ratings</li>
+            </ul>
+
+            <h4>৭. গুরুত্বপূর্ণ Hardware Tools:</h4>
+            <ul>
+                <li><strong>Diagnostic Software:</strong> CPU-Z, GPU-Z, HWiNFO64</li>
+                <li><strong>Bootable Tools:</strong> Rufus, balenaEtcher, Ventoy</li>
+                <li><strong>System Information:</strong> msinfo32, dxdiag</li>
+                <li><strong>Hardware Testing:</strong> FurMark (GPU), Prime95 (CPU)</li>
+                <li><strong>Driver Tools:</strong> Driver Booster, Snappy Driver Installer</li>
+            </ul>
+
+            <p><strong>সর্বোত্তম অনুশীলন:</strong> নিয়মিত hardware monitoring করুন, driver updates রাখুন, proper ventilation ensure করুন এবং hardware documentation maintain করুন। এতে reliable এবং optimized computer performance নিশ্চিত হবে।</p>
+        </div>
+    </div>
+    <button class="read-more">বিস্তারিত পড়ুন</button>
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // Toggle expanded content
+        document.querySelectorAll('.read-more').forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                const article = e.target.closest('.newspaper-article');
+                const expandedContent = article.querySelector('.expanded-content');
+                
+                if (expandedContent.style.display === 'none' || expandedContent.style.display === '') {
+                    expandedContent.style.display = 'block';
+                    e.target.textContent = 'সংক্ষিপ্ত করুন';
+                    e.target.style.background = '#e74c3c';
+                } else {
+                    expandedContent.style.display = 'none';
+                    e.target.textContent = 'বিস্তারিত পড়ুন';
+                    e.target.style.background = '#2c3e50';
+                }
+            });
+        });
+
+        // Add hover effects
+        document.querySelectorAll('.newspaper-article').forEach(article => {
+            article.addEventListener('mouseenter', () => {
+                article.style.transform = 'translateY(-2px)';
+                article.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+            });
+            
+            article.addEventListener('mouseleave', () => {
+                article.style.transform = 'translateY(0)';
+                article.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+            });
+        });
+    </script>
+
+
+
+
+    
+</body>
+
+
+
+
+
+</html>
+
+
+
+
